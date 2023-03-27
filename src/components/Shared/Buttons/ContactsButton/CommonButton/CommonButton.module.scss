@@ -1,0 +1,25 @@
+@import '@sass/settings/_settings';
+
+.buttonsContainer{
+    @include displayFlex(max-content,flex, space-between,center);
+    background-color: $secondary;
+    padding: 8px 10px;
+    height: 38px;
+    color: $vreel_white;
+    border-radius: 9px;
+
+    span{
+        padding: 0 7px 0 5px ;
+    }
+    &__right{
+        @include displaySizing(24px,24px);
+    }
+    &__activeSize{
+        font-size: $text-xs;
+        font-weight: $font-semibold;
+    }
+    &__deactiveSize{
+        font-size: $text-xxs;
+        font-weight: 400;
+    }
+}

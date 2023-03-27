@@ -1,0 +1,98 @@
+@import "@sass/settings/_settings";
+
+.iconsContainer {
+    width: 100%;
+    height: calc(100% - 2rem);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 48%);
+    grid-auto-rows: min-content;
+    grid-gap: 1rem;
+    margin-top: 2rem;
+    padding: 0 .4rem;
+    scroll-snap-align: start;
+    
+
+    @media only screen and (max-width:642px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 30.2%);
+    }
+
+    @media only screen and (min-width:1500px) {
+        grid-template-rows: repeat(2, 49%);
+    }
+    
+    // only for safari IPhone 6,,7,8
+    @media not all and (min-resolution: 0.001dpcm) {
+        @media only screen and (max-width: 1024px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 28.4%);
+        }
+    }
+    &__onlyRow {
+      @media only screen and (max-width:642px) {
+        grid-template-rows: repeat(2, 49%);
+      }
+    }
+     &__icons {
+        box-sizing: border-box;
+        @media only screen and (max-width:1024px) {
+            &__fullRow{
+                width: 100%;
+            }
+        }
+         &__imgContainer {
+             @include displayFlex(auto, flex, center, center);
+             height: 156px;
+             width: 156px;
+             border-radius: 50%;
+             cursor: pointer;
+             margin: 0 auto;
+
+             @media only screen and (max-height: 750px) and (min-height:600px) {
+                 @include displaySizing(130px, 130px);
+             }
+
+             @media only screen and (max-height: 500px) and (min-height: 480px) {
+                 @include displaySizing(100px, 100px);
+             }
+
+            @media only screen and (max-width: 360px) and (min-width:320px) {
+                @include displaySizing(130px, 130px);
+            }
+            @media only screen and (max-width: 320px) {
+                @include displaySizing(115px, 115px);
+            }
+
+            // Next Hub Device
+            @media only screen and (width:1024px) and (height:600px) {
+                @include displaySizing(100px, 100px);
+            }
+
+            // only for safari IPhone 6,,7,8
+            @media not all and (min-resolution: 0.001dpcm) {
+              @media only screen and (max-width: 1024px) {
+                @include displaySizing(95px, 95px);
+                
+              }
+            }
+
+             img {
+                 width: 60%;
+                 height: 60%;
+                 object-fit: contain;
+             }
+         }
+
+         &__iconsName {
+             font-size: 18px;
+             font-weight: medium;
+             color: $vreel_white;
+             text-decoration: none;
+             display: block;
+             text-transform: uppercase;
+             padding: 10px 0 5px 0;
+             text-align: center;
+         }
+     }
+ }

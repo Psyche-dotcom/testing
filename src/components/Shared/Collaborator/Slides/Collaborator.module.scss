@@ -1,0 +1,76 @@
+@import '@sass/settings/_settings';
+
+.collaborator {
+  background-color: $secondary;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px 15px;
+  h4 {
+    font-weight: $font-bold;
+    padding: 20px;
+  }
+
+  label {
+    font-weight: $font-regular;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  input {
+    background-color: $vreel_white;
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+
+  &__items {
+    section {
+      background-color: #242A41;
+
+      &:last-child {
+        background-color: #8D8D8D;
+        border-radius: 0 0 20px 20px;
+      }
+    }
+  }
+
+  &__item {
+    @include displayFlex(100%, flex, space-around, center);
+    padding: 20px 10px;
+
+    &__logo {
+      border-radius: 50%;
+      border: solid 4px $vreel_white;
+      width: 40px;
+      height: 40px;
+      line-height: 35px;
+      text-align: center;
+      font-size: $text-xl;
+      font-weight: $font-extrabold;
+      text-transform: uppercase;
+      background-color: $primary;
+    }
+
+    &__name {
+      text-align: left;
+    }
+
+    h3 {
+      text-transform: capitalize;
+      font-weight: $font-bold;
+    }
+
+    small {
+      font-size: $text-xs;
+    }
+
+    button {
+      color: $vreel_white;
+      text-transform: capitalize;
+      font-weight: $font-bold;
+      font-size: $text-xl;
+    }
+  }
+
+}

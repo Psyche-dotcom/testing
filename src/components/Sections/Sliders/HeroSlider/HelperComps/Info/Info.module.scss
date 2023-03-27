@@ -1,0 +1,132 @@
+@import '@sass/settings/_settings';
+
+.info {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  z-index: 10;
+  max-width: 427px;
+
+  &__hidden {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.78, -0.14, 0.83, 0.67);
+  }
+
+  &__show {
+    transform: translate(-50%, 0);
+    opacity: 1;
+    transition: all 0.6s cubic-bezier(0.32, 1.07, 0.74, 1.04);
+  }
+
+  .content {
+    padding: 1.6rem 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: $vreel_white;
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6rem;
+
+      span {
+        display: block;
+        width: 120px;
+        height: 10px;
+        background-color: $vreel_white;
+        border-radius: $rounded-full;
+        cursor: pointer;
+      }
+    }
+
+    .credits {
+      margin: 2rem 0 3rem;
+      display: flex;
+      flex-direction: column;
+
+      &__title {
+      }
+
+      &__subTitle {
+        color: $secondary;
+        margin: 0.6rem 0;
+        font-size: 14px;
+        font-weight: $font-medium;
+      }
+
+      &__playingNow {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        font-weight: $font-extrabold;
+      }
+    }
+
+    &__body {
+      .title {
+        font-size: 2rem;
+        text-transform: capitalize;
+      }
+
+      .subTitle {
+        margin: 0.6rem 0 1.2rem;
+      }
+
+      .details {
+        line-height: 1.3rem;
+      }
+
+      .gallery {
+        margin: 1rem 0;
+
+        &:not(:last-child) {
+          margin-bottom: 2rem;
+        }
+
+        &__title {
+        }
+
+        &__wrapper {
+          margin-top: 1rem;
+
+          padding: 0 3rem;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+
+          gap: 2rem;
+
+          .card {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: 12px;
+
+            img {
+              width: 110px;
+              height: 130px;
+              object-fit: cover;
+              border-radius: 1rem;
+            }
+
+            .name {
+              display: block;
+              font-weight: $font-semibold;
+            }
+
+            .designation {
+              display: block;
+              margin: 0.4rem 0;
+            }
+          }
+        }
+      }
+    }
+
+    &__footer {
+      margin-top: 4rem;
+    }
+  }
+}

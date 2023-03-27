@@ -1,0 +1,50 @@
+@import '@sass/settings/_settings';
+
+.personalInfoContainer {
+  @include displaySizing(100%, auto);
+  background-color: $vreel_light_gray;
+  padding: 12px 15px;
+  border-radius: 20px;
+  display: block;
+
+  @media (min-width: 1020px) {
+    display: none;
+  }
+
+  &__title {
+    @include displayFlex(auto, flex, space-between, center);
+    padding-bottom: 10px;
+    span {
+      color: $vreel_white;
+    }
+  }
+  &__inputContainer {
+    // @include componentsBorder(1px dashed $secondary, $rounded-2xl);
+
+    &__topText {
+      @include displayFlex(100%, flex, flex-start, flex-start);
+      flex-direction: column;
+      padding: 12px 15px;
+      .linkText {
+        color: $secondary;
+        font-weight: $font-semibold;
+        font-size: 14px;
+        padding-bottom: 10px;
+      }
+    }
+    &__inputField {
+      // @include componentsBorder(1px solid $vreel_white, $rounded-2xl);
+      margin: 10px 0;
+      // padding: 11px 10px;
+
+      &__addLogoContainer {
+        @include displayFlex(100%, flex, center, center);
+        margin-top: 10px;
+        &__logoContent{
+          width: 40%;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

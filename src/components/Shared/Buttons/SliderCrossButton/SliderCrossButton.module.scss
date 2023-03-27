@@ -1,0 +1,13 @@
+@import '@sass/settings/_settings';
+
+.cross__icon {
+  color: $vreel_white;
+  border: 3px solid $vreel_white;
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 10000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}

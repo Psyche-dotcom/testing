@@ -1,0 +1,151 @@
+@import '@sass/settings/_settings';
+
+.qrCodes{
+    width: 100%;
+    max-width: 400px;
+    background-color: $vreel_blue_dark;
+    box-shadow: 0px 1.79739px 43.1373px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    padding-bottom: 7rem;
+    margin: auto;
+
+    @media only screen and (min-width: 642px) {
+        max-width: 360px;
+        margin: unset;
+    }
+
+    &__titles{
+        font-family: 'Poppins';
+        font-weight: $font-medium;
+        font-size: $text-base;
+        line-height: 24px;
+        padding: 10px  17px 0;
+        letter-spacing: 0.898693px;
+        color: $vreel_white;
+    }
+}
+
+// Dynsmics Tags Styles
+.dynamicTags{
+    &__container{
+        padding: 0 17px;
+
+        &__title{
+            font-size: $text-small;
+            line-height: 21px;
+            color:$vreel_white;
+        }
+        &__btnContainer{
+            @include displayFlex(100%,flex,space-between,center);
+            padding: 13px 0;
+            &__leftBtn{
+                @include displayFlex(100%, flex, space-between, center);
+                background-color: $vreel_white;
+                border-radius: 10px;
+                width: 94px;
+                height: 34px;
+                & > div {
+                    padding: 3px 13px;
+                    height: 100%;
+                    border-radius: 10px;
+                    transition: all .5s ease-in-out;
+                    @include displayFlex(auto, flex, center, center);
+                    cursor: pointer;
+                    flex-direction: column;
+            
+                    &>span {
+                        font-size: 8px;
+                        line-height: 13px;
+                    }
+            
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        object-fit: fill;
+                    }
+                }
+            
+                .active {
+                    background-color: $secondary;
+                }
+            
+                .deactive {
+                    background-color: $vreel_white;
+                }
+            }
+        }
+        &__selectFile{
+            padding-bottom: 13px;
+            select {
+                width: 100%;
+                padding: 15px;
+                border-radius: 10px;
+                outline: none;
+                cursor: pointer;
+                color: $primary;  
+            }
+        }
+
+        &__qrImgContainer{
+            background-color: $vreel_light_gray;
+            padding: 13px;
+            border-radius: 15px;
+            
+            &__qrCodeBtn{
+                @include displayFlex(100%, flex, space-between, center);
+                padding-top: 16px;
+            }
+        }
+                        
+    }
+}
+
+// Slides Tags Styles
+.slideQrTags{
+    &__container{
+        padding: 0 17px;
+
+        &__slide{
+            background-color: $vreel_light_gray;
+            padding: 15px;
+            border-radius: 15px;
+
+            &:not(:last-child) {
+                margin-bottom: 1rem;
+            }
+
+            &__content{
+                @include displayFlex(100%, flex, space-between, center);
+                &>div{
+                    width: 50%;
+                    text-align: center;
+                    img {
+                        height: 122px;
+                        @include displayFlex(122px, flex, flex-start, center);
+                    }
+                    h4{
+                        color: $secondary;
+                        font-size: $text-md;
+                        font-weight: $font-semibold;
+                        line-height: 26px;
+                    }
+                    p{
+                        letter-spacing: 0.827173px;
+                        color: $vreel_white;
+                        line-height: 20px;
+                        font-size: $text-xs;
+                        margin: 8px 0;
+                    }
+                }
+            }
+            &__link {
+                color: $vreel_white;
+                line-height: 15px;
+                letter-spacing: 0.827173px;
+                font-size: $text-xxs;
+                padding: 12px 6px 0 0;
+                display: inline-block;
+            }
+        }
+    }
+}

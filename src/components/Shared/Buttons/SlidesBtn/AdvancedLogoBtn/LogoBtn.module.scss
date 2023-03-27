@@ -1,0 +1,49 @@
+@import "@sass/settings/_settings";
+.BtnContainer {
+  @include displaySizing(100%, calc(10.5rem - 1.4rem));
+  padding: 6px 5px;
+  background-color: $secondary;
+  border-radius: 15px;
+
+  &__imgContainer {
+    @include displaySizing(100%, 108px);
+    cursor: pointer;
+    img {
+      @include displaySizing(100%, 100%);
+      object-fit: cover;
+      border-radius: 18px;
+    }
+  }
+
+  &__addLogo {
+    @include displayFlex(100%, flex, center, center);
+    padding: 10px 4px 3px 4px;
+    height: 1.4rem;
+
+    span {
+      font-size: 10px;
+      padding-right: 4px;
+      color: $vreel_white;
+    }
+    .img {
+      @include displaySizing(25px, 25px);
+      object-fit: cover;
+    }
+  }
+  .action {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h4 {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+    p{
+      font-size: 12px;
+      text-align: center;
+      line-height: 1.3;
+    }
+  }
+}

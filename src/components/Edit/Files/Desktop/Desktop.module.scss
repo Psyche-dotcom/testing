@@ -1,0 +1,45 @@
+@import "@sass/settings/_settings";
+
+.filesDesktopVersion {
+  display: none;
+  //background-color: $primary;
+  width: 100%;
+  overflow: hidden;
+  @media only screen and (min-width: 1024px) {
+    display: block;
+  }
+  .grid {
+    padding-bottom: 16px;
+    display: flex;
+    &__wrapper {
+      video {
+        width: 450px;
+      }
+      .uppy-Webcam-buttonContainer {
+        border: 5px solid green;
+      }
+      @include displaySizing(50%, 550px);
+      margin-bottom: 2px;
+      border-radius: 10px;
+      .preview {
+        @include displayFlex(calc(100% - 16px), flex, center, center);
+
+        height: 100%;
+        margin-left: 16px;
+        @include componentsBorder(1px solid gray, 8px);
+
+        div {
+          @include displaySizing(100%, 100%);
+          box-sizing: border-box;
+          overflow: hidden;
+        }
+
+        h3 {
+          color: $vreel_white;
+          font-weight: $font-bold;
+          font-size: $text-2xl;
+        }
+      }
+    }
+  }
+}

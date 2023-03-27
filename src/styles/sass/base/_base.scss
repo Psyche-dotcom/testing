@@ -1,0 +1,49 @@
+:root {
+  --rsbs-backdrop-bg: rgba(0, 0, 0, 0.6);
+  --rsbs-bg: rgb(237, 237, 237);
+  --rsbs-handle-bg: hsla(0, 0%, 0%, 0.14);
+  --rsbs-max-w: auto;
+  --rsbs-ml: env(safe-area-inset-left);
+  --rsbs-mr: env(safe-area-inset-right);
+  --rsbs-overlay-rounded: 16px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+.uppy-Webcam-buttonContainer {
+  border: 5px solid green;
+  text-align: center;
+  button {
+    svg {
+      circle {
+        color: red;
+        r: 15;
+      }
+      rect {
+        width: 40px;
+        height: 40px;
+        margin-top: 150px;
+      }
+    }
+  }
+}
+
+.react-modal-sheet-backdrop {
+  /* custom styles */
+}
+.react-modal-sheet-container {
+  box-shadow: none !important;
+  background: transparent !important;
+}
+.react-modal-sheet-header {
+  /* custom styles */
+}
+.react-modal-sheet-drag-indicator {
+  /* custom styles */
+}
+.react-modal-sheet-content {
+  /* custom styles */
+}

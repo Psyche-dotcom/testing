@@ -1,0 +1,51 @@
+@import "@sass/settings/_settings";
+
+.loaderContainer {
+  @include displayFlex(100vw, flex, center, center);
+  height: 100vh;
+  height: calc(var(--height, 1vh) * 100);
+  // background-color: azure;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+
+  // &__loader {
+  //   @include componentsBorder(10px solid $secondary,50%);
+  //   border-left-color: $vreel_blue_dark;
+  //   border-right-color: $vreel_blue_dark;
+  //   @include displaySizing(100px,100px);
+  //   -webkit-animation: spin 2s linear infinite;
+  //   animation: spin 1s linear infinite;
+  //   position: relative;
+  //   background-color: #e3e3e3fb;
+  // }
+  //   &__loader_header {
+  //     position: absolute;
+  //     top: 50%;
+  //     left: 50%;
+  //     transform: translate(-50%, -50%);
+  //     font-weight: bold;
+  //     font-size: 16px;
+  //     color: $secondary;
+  //   }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

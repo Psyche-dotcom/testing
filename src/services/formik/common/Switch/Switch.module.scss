@@ -1,0 +1,34 @@
+@import "@sass/settings/_settings";
+
+.toggleBtn {
+  @include componentsBorder(2px solid $vreel_white, 20px);
+  margin-bottom: 5px;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  &__switchText {
+    position: absolute;
+    font-size: 12px;
+    left: 30%;
+    top: 50%;
+    transition: all 0.2s ease-in-out;
+    color: $primary;
+  }
+  .active {
+    transform: translate(-50%, -50%);
+  }
+  .deactive {
+    transform: translate(80%, -50%);
+  }
+  button {
+    @include displaySizing(50%, 100%);
+    @include componentsBorder(none, 20px);
+    background-color: $vreel_white;
+  }
+  .off {
+    transform: translateX(0);
+  }
+  .on {
+    transform: translateX(100%);
+  }
+}

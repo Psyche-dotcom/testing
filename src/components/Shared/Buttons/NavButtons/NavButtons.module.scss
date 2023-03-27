@@ -1,0 +1,18 @@
+@import '@sass/settings/_settings';
+.buttonsContainer{
+  @include displayFlex(max-content, flex, space-between, center);
+}
+.button {
+  @include displayFlex(max-content, flex, space-between, center);
+  background-color: $primary;
+  padding: 10px 15px;
+  height: 38px;
+  color: $vreel_white;
+  border-radius: 20px;
+  border: solid 2px $vreel_white;
+  text-align: left;
+  img{
+    padding-right: 10px;
+
+  }
+}

@@ -1,0 +1,95 @@
+@import "@sass/settings/_settings";
+
+.slidesContainer {
+  @include displayFlex(100%, flex, flex-start, flex-start);
+
+  &__leftSides {
+    width: 100%;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      max-width: 360px;
+      margin-right: 1rem;
+    }
+
+    &__content {
+      background-color: $vreel_blue_dark;
+      padding-bottom: 45px;
+      border-radius: $rounded-xl;
+
+      &__addNewBtn {
+        @include displayFlex(100%, flex, space-between, center);
+        padding: 17px;
+
+        &__span {
+          display: block;
+          color: $vreel_white;
+          font-size: $text-small;
+          font-weight: $font-semibold;
+          width: max-content;
+          @media only screen and (max-width: 1024px) {
+            display: none;
+
+            @media only screen and (max-width: 1024px) {
+              @include displayFlex(100%, flex, space-between, center);
+            }
+
+            &__span {
+              display: block;
+              color: $vreel_white;
+              font-size: $text-small;
+              font-weight: $font-semibold;
+              width: max-content;
+              @media only screen and (max-width: 1024px) {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &__rightSlides {
+    @include displaySizing(calc(100% - 360px), 100vh);
+    display: none;
+    @media only screen and(min-width:1024px) {
+      display: block;
+    }
+    // @media only screen and (min-width: 1236px) {
+    //   @include displaySizing(61%, max-content);
+    // }
+    &__container {
+      background-color: $vreel_light_gray;
+      border-radius: $rounded-2xl;
+      padding: 16px;
+      @include displaySizing(80%, max-content);
+      margin: 0 auto;
+      transition: all 0.5s ease-in-out;
+      @media only screen and(min-width:1236px) {
+        @include displaySizing(60%, max-content);
+        margin: 0 auto;
+      }
+
+      &__prevToggleBtn {
+        @include displayFlex(100%, flex, center, center);
+        padding: 13px 0;
+        display: none;
+        div > p {
+          color: $vreel_white;
+          font-size: 12px;
+          text-align: center;
+          padding: 7px;
+        }
+        @media (min-width: 1024px) {
+          display: block;
+        }
+      }
+    }
+  }
+}
+.active {
+  @include displaySizing(100%, max-content);
+}

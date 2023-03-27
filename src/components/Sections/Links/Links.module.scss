@@ -1,0 +1,92 @@
+@import "@sass/settings/_settings";
+
+.container {
+  @include displayFlex(100%,flex,center,center);
+  height: calc(100% - 2rem);
+  margin-top: 2rem;
+
+  &__content {
+    @include displaySizing(100%, 100%);
+    display: grid;
+    gap:.5rem 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    @media (max-width:380px) {
+      @include displaySizing(290px,100%);
+      max-height: 550px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+
+    @media (max-width:600px) and (min-width:380px) {
+      @include displaySizing(270px, 500px);
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+
+    @media (min-width:600px) and (max-width:900px) {
+      max-width: 550px;
+      max-height: 450px;
+    }
+
+    @media (min-width:900px) and (max-width:1024px) {
+      max-width: 630px;
+      max-height: 500px;
+    }
+
+    @media (min-width:1025px) and (max-width:1240px) {
+      max-width: 620px;
+      max-height: 550px;
+    }
+
+    @media (min-width:1240px) and (max-width:1550px) {
+      max-width: 700px;
+      max-height: 560px;
+    }
+
+    @media (min-width:1550px) {
+      max-width: 1000px;
+      max-height: 900px;
+    }
+
+    &__slide {
+
+      &__imgContent {
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 10px;
+
+        img {
+          width: 100%;
+          aspect-ratio: 1/1;
+          object-fit: cover;
+          object-position: top center;
+          border-radius: 10px;
+        }
+      }
+
+      &__textContent{
+        a{
+          text-decoration: none;
+          display:block;
+          color: $vreel_white;
+          font-size: $text-xs;
+          line-height: 120%;
+          margin-top: 3px;
+          @include textElipsis(2);
+          @media (min-width:1024px){
+            font-size: 1rem;
+            line-height: 130%;
+          }
+          @media (min-width:1550px) {
+            font-size: 1.2rem;
+            line-height: 120%;
+          }
+        }
+      }
+    }
+  }
+}
+
+

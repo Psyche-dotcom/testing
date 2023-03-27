@@ -1,0 +1,53 @@
+@import '../../../../styles/sass/settings/_settings';
+
+.menuItemContainer{
+    margin-bottom: 15px;
+}
+
+.item{
+    @include displayFlex(auto,flex,center,center);
+
+    &:hover button{
+        color: $secondary;
+    }
+    &:hover .roundBall {
+        background-color: $secondary;
+    }
+    .roundBall{
+        @include displaySizing(16px,16px);
+        transition: all .5s;
+        border-radius: 50%;
+        margin-top: 3px;
+        background-color: transparent;
+    }
+    button{
+        font-weight: $font-bold;
+        border: none;
+        transition: all .5s;
+        text-transform: capitalize;
+        letter-spacing: 3px;
+        background-color: transparent;
+        font-size: $text-3xl;
+        cursor: pointer;
+        @media only screen and (max-width:768px) {
+            font-size: $text-2xl;
+        }
+    }
+
+    .active {
+        margin-left: 8px;
+    }
+
+    .deactive {
+        margin-left: 0px;
+    }
+
+    .isActive {
+        color: $secondary;
+    }
+
+    .isDeactive {
+        color: $vreel_white;
+    }
+}
+

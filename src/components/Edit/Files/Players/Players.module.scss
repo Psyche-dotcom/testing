@@ -1,0 +1,22 @@
+@import '@sass/settings/_settings';
+
+.imgSizing {
+  @include displaySizing(100%, 100%);
+  object-fit: cover;
+  @media only screen and (min-width: 1024px) {
+    border-radius: 10px;
+  }
+}
+
+.players {
+  @include displaySizing(100%, 100vh);
+  @include displayFlex(auto, flex, center, flex-start);
+  overflow: auto;
+  padding: 0 4px;
+
+  @media only screen and (min-width: 1024px) {
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 0;
+  }
+}

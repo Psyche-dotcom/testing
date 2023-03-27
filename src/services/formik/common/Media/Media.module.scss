@@ -1,0 +1,184 @@
+@import '@sass/settings/_settings';
+
+.mediaContainer {
+  &__leftItem {
+    height: auto;
+    &__mediaImgContainer {
+      @include displayFlex(100%, flex, center, center);
+      flex-direction: column;
+      height: 110px;
+      background-color: $secondary;
+      border-radius: 20px;
+      transition: all 0.5s ease-in-out;
+      cursor: pointer;
+
+      img {
+        @include displaySizing(64px, 64px);
+        object-fit: contain;
+      }
+      p {
+        font-size: 12px;
+        padding: 5px 15px;
+        text-align: center;
+        font-weight: 700;
+      }
+    }
+    &__mediaContainer {
+      @include displayFlex(100%, flex, space-between, center);
+      height: 145px;
+      border-radius: 20px;
+      transition: all 0.5s ease-in-out;
+      cursor: pointer;
+
+      &__imgContainer {
+        @include displaySizing(45%, auto);
+        overflow: hidden;
+        &__imgContent {
+          @include displaySizing(129px, 122px);
+          margin: 0 auto;
+          background: #000000;
+          video {
+            width: 100%;
+            height: 100%;
+            border-radius: 14px;
+            object-fit: fill;
+          }
+          img {
+            @include displaySizing(100%, 100%);
+            object-fit: fill;
+            width: 100%;
+            height: 100%;
+            border-radius: 14px;
+          }
+        }
+        &__logoContent {
+          height: 122px;
+          @include displayFlex(129px, flex, center, center);
+          flex-direction: column;
+          background-color: $secondary;
+          border-radius: 14px;
+          margin: 0 auto;
+          img {
+            @include displaySizing(60%, 60%);
+            object-fit: fill;
+          }
+          p {
+            font-size: 10px;
+            max-width: 70%;
+            text-align: center;
+            font-weight: 700;
+            line-height: 15px;
+            text-transform: capitalize;
+          }
+        }
+      }
+
+      p {
+        font-size: 12px;
+        padding-top: 5px;
+      }
+      &__iconsContainer {
+        width: 50%;
+
+        &__title {
+          text-align: center;
+          font-size: 11px;
+          opacity: 0.8;
+          p {
+            padding-top: 0;
+            text-transform: capitalize;
+          }
+        }
+
+        &__inputContainer {
+          @include displayFlex(100%, flex, space-between, center);
+          border-radius: 6px;
+          position: relative;
+          margin: 18px 0;
+
+          label {
+            color: $vreel_white;
+            font-size: 8px;
+            position: absolute;
+            top: -5%;
+            left: 20%;
+            background-color: $vreel_gray_dark;
+            padding: 0 8px;
+            transform: translate(-50%, -50%);
+
+            @media (min-width: 400px) and (max-width: 640px) {
+              left: 25%;
+            }
+            @media (max-width: 500px) {
+              left: 33%;
+            }
+          }
+
+          input {
+            @include displaySizing(100%, 100%);
+            @include componentsBorder(none, 10px);
+            padding: 10px 12px;
+            background-color: transparent;
+            outline: none;
+            color: $vreel_white;
+            font-size: 12px;
+          }
+        }
+
+        &__iconContainer {
+          @include displayFlex(auto, flex, space-between, center);
+          max-width: 100px;
+          margin: 0 auto;
+
+          button {
+            color: $secondary;
+            cursor: pointer;
+            @include displaySizing(20px, 20px);
+
+            img {
+              @include displaySizing(100%, 100%);
+              object-fit: cover;
+            }
+            a {
+              color: $secondary;
+            }
+            .viewIcon {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+    &__mediaImg {
+      @include displaySizing(100%, calc(100% - 15%));
+
+      img,
+      input {
+        @include displaySizing(100%, 100%);
+        object-fit: cover;
+        border-radius: 20px;
+      }
+    }
+    &__playBtn {
+      padding: 3px 0px 8px 8px;
+      @include displayFlex(auto, flex, flex-start, center);
+      height: 15%;
+      span {
+        font-size: 7px;
+        margin-left: 2px;
+      }
+      button {
+        margin-top: 3px;
+      }
+    }
+  }
+}
+
+.inputActive {
+  border: 1px solid $vreel_gray;
+}
+
+.inputDeactive {
+  border: 1px solid $vreel_gray;
+  opacity: 0.4;
+}

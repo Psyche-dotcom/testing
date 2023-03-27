@@ -1,0 +1,13 @@
+@import '@sass/settings/_settings';
+
+.accountLogin {
+  margin: 1rem 0;
+
+  .title {
+    display: block;
+    text-align: center;
+    color: $vreel-white;
+    font-size: 14px;
+    margin-bottom: 0.8rem;
+  }
+}

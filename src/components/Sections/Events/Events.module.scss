@@ -1,0 +1,157 @@
+@import '@sass/settings/_settings';
+
+.events{
+    // @include displayFlex(100%,flex,space-between,flex-start);
+    // height: calc(100% - 1.8rem);
+    // flex-flow: wrap;
+    // row-gap: 1.6rem;
+    // margin-top: 2rem;
+    // padding: 0 .4rem;
+
+    // @media only screen and (max-width:642px) {
+    //    row-gap: 1.2rem;
+    // }
+    width: 100%;
+    height: calc(100% - 2rem);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 48.4%);
+    grid-auto-rows: min-content;
+    grid-gap:1rem;
+    margin-top: 2rem;
+    padding: 0 .4rem;
+
+    @media only screen and (max-width:642px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 30.2%);
+    }
+
+    @media only screen and (max-width:1024px) and (min-width:642px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 31.5%);
+    }
+
+    @media only screen and (min-width:1500px) {
+        grid-template-rows: repeat(2, 49%);
+    }
+
+    // Iphone 4
+    @media only screen and (width:320px) and (height:480px) {
+        grid-template-rows: repeat(2, 49.5%);
+    }
+    // only for safari IPhone 6,,7,8
+    @media not all and (min-resolution:.001dpcm) {
+        @media only screen and (max-width:642px) {
+            grid-template-rows: repeat(3, 28%);
+        }
+    }
+    
+    &__slide{
+        box-sizing: border-box;
+        // @include displayFlex(100%, flex, space-between, center);
+        // flex: 0 0 calc(calc(100% - 1.6rem) / 12 * 6);
+        // height: calc(50% - 1.6rem);
+
+        // @media only screen and (max-width:642px){
+        //     flex: 0 0 calc(100% / 12 * 12);
+        //     height: 29.7%;
+        // }
+        // @media only screen and (max-width:1024px) and (min-width:642px)  {
+        //     flex: 0 0 calc(100% / 12 * 12);
+        //     height: 31%;
+        // }
+        // // Next Hab Device
+        // @media only screen and (width:1024px) and (height:600px) {
+        //     flex: 0 0 calc(calc(100% - 1.6rem) / 12 * 6);
+        //     height: calc(50% - 1rem);
+        // }
+
+        // // only for safari IPhone 6,,7,8
+        // @media not all and (min-resolution:.001dpcm) {
+        //     @media only screen and (max-width:642px) {
+        //         flex: 0 0 calc(100% / 12 * 12);
+        //         height: 27.7%;
+        //     }
+        //     // Iphone 4
+        //     @media only screen and (width:320px) and (height:480px) {
+        //         flex: 0 0 calc(100% / 12 * 12);
+        //         height: 45%;
+        //     }
+        // }
+
+        &__container{
+            @include displayFlex(100%, flex, space-between, flex-start);
+            flex: 0 0 calc(100% / 12 * 12);
+            height: 100%;
+
+            &__orderFrist{
+                @media only screen and (max-width:1024px){
+                    order: 1;
+                }
+            }
+
+            &__orderLast{
+                @media only screen and (max-width:1024px) {
+                    order: 2;
+                }
+            }
+
+            &__imgContainer {
+                width: 54%;
+                height: 100%;
+                box-sizing: border-box;
+                border-radius: 10px;
+                overflow: hidden;
+        
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 10px;
+                    object-position: top center;
+                }
+            }
+            
+            &__eventsTextContainer {
+                @include displayFlex(44%, flex, space-around, center);
+                flex-direction: column;
+                height: 100%;
+                color: $vreel_white;
+                text-align: center;
+                line-height: 120%;
+
+                &__eventsTexts{
+                    h4{
+                        padding-bottom: 5px;
+                    }
+                }
+        
+                &__btnContainer {
+                
+                    p {
+                        font-size: 13px;
+                        padding-bottom: 3px;
+                        @include textElipsis(2);
+                    }
+        
+                    &__btn {
+                        @include displayFlex(100%, flex, space-evenly, center);
+        
+                        button {
+                            background-color: $vreel_white;
+                            font-size: 13px;
+                            font-weight: 600;
+                            padding: 4px 16px;
+                            border-radius: 5px;
+                        }
+        
+                        &__icon {
+                            font-size: 30px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

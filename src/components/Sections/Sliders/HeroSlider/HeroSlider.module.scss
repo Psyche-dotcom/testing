@@ -1,0 +1,11 @@
+@import '@sass/settings/_settings';
+
+.vreelSlider {
+  // position: relative;
+  @include displaySizing(100%, 100%);
+
+  // VREEL SLIDE
+  .vreelSlide {
+    @include displaySizing(100%, 100%);
+  }
+}

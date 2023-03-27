@@ -1,0 +1,40 @@
+@import '@sass/settings/_settings';
+
+.group {
+    background-color: $vreel_light_gray;
+    border-radius: 20px;
+    padding-bottom: 26px;
+    &__requests{
+        &__content{
+            background-color: $vreel_blue_dark;
+            padding: 14px 14px 9px;
+            @include displayFlex(100%,flex,space-between,center);
+            &__left{
+                &__brandName{
+                    color: $secondary;
+                    font-size: $text-md;
+                    padding-bottom: 10px;
+                }
+                &__authorName{
+                    font-size: $text-small;
+                }
+            }
+            &__right{
+                @include displayFlex(45%, flex, space-between, center);
+                button{
+                    @include displayFlex(100%, flex, space-between, center);
+                    flex-direction: column;
+                    img{
+                        width: 48px;
+                        height: 48px;
+                    }
+                    span{
+                        color: $vreel_white;
+                        font-size: $text-xs;
+                        font-weight: $font-semibold;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@import "@sass/settings/_settings";
+
+.news_feed {
+  overflow: hidden;
+  display: flex;
+
+  .container {
+    width: 50%;
+    color: white;
+    // border: 1px solid red;
+    overflow: hidden;
+  }
+}

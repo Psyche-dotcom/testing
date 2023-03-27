@@ -1,0 +1,83 @@
+@import "@sass/settings/_settings";
+
+.toggleButton {
+  padding: 2px;
+  border-radius: $rounded-full;
+  overflow: hidden;
+  cursor: pointer;
+
+  .container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: $rounded-full;
+    font-weight: $font-medium;
+
+    & > * {
+      border-radius: $rounded-full;
+    }
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    height: 100%;
+    width: 60%;
+
+    position: absolute;
+    top: 0;
+
+    &__active {
+      transform: translate(10%, 0);
+    }
+
+    &__deactive {
+      transform: translate(calc(100% - 45%), 0);
+    }
+  }
+
+  .subtitle {
+    background-color: #fff;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    position: absolute;
+    top: 0;
+
+    &__active {
+      transform: translate(calc(200% - 15%), 0);
+    }
+
+    &__deactive {
+      transform: translateX(0);
+    }
+  }
+
+  .icon {
+    height: 100%;
+    width: 34%;
+    border-radius: $rounded-full;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+
+    &__active {
+      transform: translate(calc(200%), 0);
+    }
+
+    &__deactive {
+      transform: translateX(0);
+    }
+  }
+}

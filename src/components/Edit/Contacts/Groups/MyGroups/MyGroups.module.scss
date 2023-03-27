@@ -1,0 +1,36 @@
+@import '@sass/settings/_settings';
+
+
+.myGroups{
+    background-color: $vreel_light_gray;
+    &__container{
+        &__content{
+            width: 100%;
+            background-color: $vreel_blue_dark;
+            padding: 14px 21px;
+            &__wrap{
+               @include displayFlex(100%,flex,space-between,center);
+               padding-bottom: 15px;
+                &__leftSide {
+                    &__brandName {
+                        color: $secondary;
+                        font-size: $text-md;
+                        padding-bottom: 3px;
+                        line-height: 26px;
+                    }
+            
+                    &__authorName {
+                        font-size: $text-small;
+                        line-height: 130%;
+                    }
+            
+                }
+           }
+            &__date {
+                font-size: $text-xxs;
+                text-align: center;
+                line-height: 15px;
+            }
+        }
+    }
+}

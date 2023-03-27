@@ -1,0 +1,27 @@
+@import '@sass/settings/_settings';
+
+.toggleButton {
+  background: $vreel_white;
+  border-radius: $rounded-full;
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+
+  .button {
+    width: max-content;
+    color: $primary;
+    border-radius: $rounded-full;
+    background-color: $secondary;
+    padding: 0.2rem 0.8rem;
+
+    span {
+      font-weight: $font-bold;
+    }
+
+    &_active {
+      background-color: $vreel_white;
+    }
+  }
+}

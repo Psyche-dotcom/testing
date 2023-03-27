@@ -1,0 +1,463 @@
+@import "@sass/settings/_settings";
+
+// CONTENT
+.media__content {
+  @include displaySizing(100%, 100%);
+  position: absolute;
+  z-index: 30;
+  padding: 1.5rem 1rem;
+  top: 0;
+  background-color: rgba($color: rgb(246, 8, 8), $alpha: 0);
+
+  @media (min-width: 1020px) {
+    padding: 2rem 3rem;
+  }
+
+  path {
+    fill: black;
+  }
+
+  &__bottomSheet {
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%) rotate(180deg);
+    filter: var(--isDark);
+    cursor: pointer;
+
+    &__down {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    img {
+      width: auto;
+      height: 15px;
+      object-fit: cover;
+    }
+
+    .arrow_container {
+
+      /* cubic-bezier-easing = sine / mehr Beispiele: https://easings.net/ */
+      animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+      cursor: pointer;
+      height: 15px;
+
+      &__down {}
+    }
+
+    .arrow_down {
+      height: 3px;
+      background: white;
+      transform: rotate(25deg);
+      transform-origin: 0% 0%;
+      border-radius: 1px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        left: 100%;
+        border-radius: 1px;
+        background: white;
+        transform: rotate(-50deg);
+        transform-origin: 0% 100%;
+      }
+    }
+
+    @keyframes bounce {
+      50% {
+        transform: translateY(-5px);
+      }
+    }
+
+  }
+
+  &_wrapper {
+    @include displaySizing(100%, 100%);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    // border: 1px solid black;
+
+    // VREEL LOGO
+    &__vreelLogo {
+      height: auto;
+      position: absolute;
+      @include displayFlex(30%, flex, flex-start, flex-start);
+      top: 0;
+      left: 0;
+
+      //only for safari IPhone 6,,7,8
+      /*    @media not all and (min-resolution: 0.001dpcm) {
+            @media only screen and (max-width: 642px) {
+              width: 30%;
+              height: max-content;
+              position: -ms-absolute;
+              top: 0;
+              left: 0;
+            }
+          } */
+
+      img {
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+
+    // LEFT SLIDE PART
+    &__left {
+      height: 100%;
+      @include displayFlex2(10%, flex, space-between, flex-start, column);
+
+      // Bottom puase button
+      &__bottom {
+        @include displayFlex2(10%, flex, space-between, center, column);
+        overflow: hidden;
+        width: max-content;
+        //margin-bottom: 1.5rem;
+        &__moreInfo{
+          width: 30px;
+          height: 30px;
+          filter: var(--isDark);
+          margin-bottom: 2.2rem;
+        }
+        &__pauseBtn {
+          width: 30px;
+          height: 30px;
+          filter: var(--isDark);
+          margin-bottom: 2.2rem;
+          @media only screen and (max-width: 642px) {
+            //width: 28px;
+          }
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        &__muteBtn {
+          width: 30px;
+          height: 30px;
+          filter: var(--isDark);
+          margin-bottom: 2.2rem;
+          @media only screen and (max-width: 642px) {
+            /*width: 28px;*/
+          }
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+
+          a {
+            width: 133px;
+            height: auto;
+            color: $vreel_white;
+            text-transform: uppercase;
+            border: solid 2px $vreel_white;
+            border-radius: 5px;
+            -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            margin-top: 55px;
+            margin-bottom: 52px;
+            margin-left: -52px;
+            padding: 5px 10px;
+            text-decoration: none;
+            font-weight: $font-semibold;
+            display: block;
+
+
+          }
+        }
+
+        &__unMuteBtn {
+          width: 30px;
+          height: 30px;
+          filter: var(--isDark);
+          margin-bottom: 2.2rem;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+
+          a {
+            width: 60px;
+            height: auto;
+            color: $vreel_white;
+            text-transform: uppercase;
+            border: solid 2px $vreel_white;
+            border-radius: 5px;
+            -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            margin-top: 18px;
+            margin-bottom: 16px;
+            margin-left: -15px;
+            padding: 5px 10px;
+            text-decoration: none;
+            font-weight: $font-semibold;
+            display: block;
+
+          }
+        }
+
+        &__userProfile {
+          div:first-child {
+            position: relative;
+            top: inherit;
+            right: inherit;
+            filter: var(--isDark);
+            margin-bottom: 2.2rem;
+          }
+        }
+        &__qr_code {
+          width: 38px;
+          height: 38px;
+
+
+          @media only screen and (min-width: 500px) {
+            width: 79px;
+            height: 79px;
+          }
+
+          canvas {
+            width: 38px !important;
+            height: 38px !important;
+
+            @media only screen and (min-width: 500px) {
+              width: 79px !important;
+              height: 79px !important;
+            }
+          }
+        }
+      }
+    }
+
+    // MIDDLE SLIDE PART
+    &__middle {
+      @include displayFlex2(auto, flex, center, flex-end, row);
+      flex: 1;
+      text-align: center;
+      color: $vreel_white;
+      width: min(80%, 100%);
+      margin-bottom: var(--marginBottom);
+
+      &__container {
+        margin: 0 auto;
+        width: min(90%, 100%);
+        filter: var(--isDark);
+      }
+
+      .profile_image {
+        filter: var(--isDark);
+
+        img {
+          -webkit-border-radius: 50%;
+          border-radius: 50%;
+          border: solid 2px #ffffff;
+
+        }
+      }
+
+      h3 {
+        font-size: 1.3rem;
+        font-weight: $font-bold;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: $text-xs;
+        line-height: 1rem;
+        margin-bottom: 0.2rem;
+      }
+
+      @media (min-width: 1024px) {
+        h3 {
+          font-size: 1.8rem;
+          font-weight: $font-bold;
+          margin-bottom: 0.5rem;
+        }
+
+        p {
+          font-size: $text-base;
+          line-height: 1.5rem;
+        }
+      }
+
+      .button_container_group {
+        @include displayFlex(auto, flex, center, center);
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+        @media (min-width: 500px) {
+          max-width: 500px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        button {
+          @include displayFlex(44%, flex, center, center);
+          flex-direction: var(--direction);
+          margin: 3%;
+        }
+
+        .button_container_2 {
+          margin-top: 1rem;
+          @include displayFlex2(auto, flex, center, stretch, row);
+
+          &>*:not(:last-child) {
+            margin-right: 0.5rem;
+            margin-right: 2rem;
+
+            @media (min-width: 1020px) {
+              margin-right: 3.5rem;
+            }
+          }
+        }
+      }
+
+      @media (min-width: 1024px) {
+        p {
+          font-size: $text-lg;
+        }
+
+        h3 {
+          font-size: 1.85rem;
+        }
+      }
+    }
+
+    // RIGHT SLIDE PART
+    &__right {
+      height: 100%;
+      @include displayFlex2(10%, flex, space-between, flex-end, column);
+      margin-bottom: 1.5rem;
+
+      div {
+        @include displayFlex2(auto, flex, initial, flex-end, column);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: max-content;
+        margin-top: -3px;
+
+        button {
+          margin-bottom: 1rem;
+          width: 30px;
+          height: 30px;
+
+          // filter: var(--isDark);
+          @media only screen and (max-width: 642px) {
+            //width: 28px;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          a {
+            width: 30px;
+            height: 30px;
+            display: block;
+
+            @media only screen and (max-width: 642px) {
+              //width: 28px;
+            }
+          }
+
+          &.cta-button,
+          &.contact,
+          &.share {
+            width: 30px;
+            height: auto;
+
+            span,
+            a {
+              width: 100px;
+              height: auto;
+              color: $vreel_white;
+              text-transform: uppercase;
+              border: solid 2px $vreel_white;
+              border-radius: 5px;
+              -webkit-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+              margin-top: 44px;
+              margin-bottom: 25px;
+              padding: 6px 10px;
+              text-decoration: none;
+              font-weight: $font-semibold;
+              margin-left: -35px;
+              filter: var(--isDark);
+            }
+          }
+
+          &.share {
+
+            span,
+            a {
+              width: 90px;
+              margin-left: -30px;
+              padding: 6px 10px;
+              margin-top: 38px;
+            }
+          }
+
+
+          &.qr_code {
+            width: 38px;
+            height: 38px;
+            margin-top: 5px;
+
+            @media only screen and (min-width: 500px) {
+              width: 79px;
+              height: 79px;
+            }
+
+            canvas {
+              width: 38px !important;
+              height: 38px !important;
+
+              @media only screen and (min-width: 500px) {
+                width: 79px !important;
+                height: 79px !important;
+              }
+            }
+          }
+          img {
+            width: 100%;
+            height: 100%;
+            filter: var(--isDark);
+          }
+        }
+      }
+
+      &__button_container_group {
+        width: 30px;
+        height: auto;
+
+        button,
+        button a {
+          width: 90px !important;
+          background: transparent;
+          height: auto;
+          color: $vreel_white;
+          text-transform: uppercase;
+          border: solid 2px $vreel_white;
+          border-radius: 5px;
+          -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+          margin-top: 25px;
+          margin-bottom: 25px;
+          padding: 5px 10px;
+          text-decoration: none;
+          font-weight: $font-semibold;
+          margin-left: -30px;
+          filter: var(--isDark);
+        }
+
+      }
+    }
+  }
+}

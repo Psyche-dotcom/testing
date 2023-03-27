@@ -1,0 +1,15 @@
+@import '@sass/settings/_settings';
+.deletBtn{
+    color:$vreel_slide_btn_color;
+    font-weight: $font-medium;
+    border-radius: 5px;
+    font-size: $text-md;
+    line-height: 27px;
+    letter-spacing: .07px;
+    span{
+        @include displayFlex(auto, flex, center, center);
+    }
+    .icon{
+        margin-right: 5px;
+    }
+}

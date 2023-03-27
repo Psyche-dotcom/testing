@@ -1,0 +1,16 @@
+.toast_notification_container {
+  display: flex;
+  align-Items: center;
+  justify-content: center;
+  justify-items: center;
+  .error_icon {
+    color: red;
+    font-size: 24px;
+  }
+  .close_btn {
+    font-size: 12px;
+    &:hover {
+      color: red;
+    }
+  }
+}

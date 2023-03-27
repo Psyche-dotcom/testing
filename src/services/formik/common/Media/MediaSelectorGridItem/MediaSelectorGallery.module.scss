@@ -1,0 +1,63 @@
+@import '@sass/settings/_settings';
+
+.mediaMobileContainer {
+  background-color: $primary;
+  padding: 38px 10px;
+  position: fixed;
+  @include displaySizing(100vw, 100vh);
+  top: 0px;
+  left: 0px;
+  z-index: 999999999;
+  transition: all 0.5s ease-in-out;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  &__closer {
+    // @include displaySizing(100%,100%);
+    position: relative;
+    &__btn {
+      color: $vreel_white;
+      font-size: 40px;
+      position: absolute;
+      right: 3%;
+      top: 0;
+      &:hover {
+        color: $secondary;
+        transform: scale(1.2);
+      }
+    }
+  }
+  &__content {
+    @include displayFlex(100%, flex, flex-start, center);
+    flex-direction: column;
+    p {
+      font-weight: $font-semibold;
+    }
+  }
+
+  &__mediaFileContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 12px;
+    margin: 0 1rem;
+    padding-top: 24px;
+    min-height: 100%;
+
+    @media only screen and (min-width: 1024px) {
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 12px;
+      margin: 0 3rem;
+    }
+    @media only screen and (max-width: 500px) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 5px;
+      margin: 0 0.5rem;
+    }
+  }
+}
+.active {
+  transform: scale(1);
+}
+.deActive {
+  transform: scale(0);
+}

@@ -1,0 +1,333 @@
+@import "@sass/settings/_settings";
+// .moreInfoBtn {
+//   @include displayFlex(auto, flex, space-between, center);
+//   padding-top: 12px;
+//   button {
+//     padding: 5px 10px;
+//     background-color: $vreel_white;
+//     border-radius: 7px;
+//     .bold {
+//       font-weight: $font-bold;
+//     }
+//     .italic {
+//       font-style: italic;
+//     }
+//     .underline {
+//       text-decoration: underline;
+//     }
+//   }
+// }
+
+.moreInfo {
+  @include displaySizing(100%, 100%);
+  padding: 15px;
+  &__flex {
+    @include displayFlex(100%, flex, space-between, flex-start);
+    padding:$slide-padding;
+    @include componentsBorder(3px solid $secondary, 10px);
+    &__left {
+      width: 60%;
+      margin-right: 16px;
+      padding: 5px 0px;
+
+      > div:not(:last-child) {
+
+      }
+
+
+      p{
+        font-size: 10px;
+        color: $vreel_white;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 5px;
+        line-height: 15px;
+      }
+     
+      &__submit{
+        @include displayFlex(100%, flex, space-between, center);
+        padding: 0 5px;
+        
+      }
+
+      &__button {
+        margin-bottom: 4px;
+      }
+    }
+  }
+  &__ShowHideButtonGroup{
+    @include componentsBorder(3px solid $secondary, 10px);
+    padding:$slide-padding;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    section{
+      margin-bottom: 10px;
+    }
+
+    &__inputGroup{
+      @include displayFlex(100%, flex, space-between, center);
+      background-color: $vreel_gray_2;
+      color: $primary;
+      font-size: 10px;
+      padding:5px 5px;
+      white-space: nowrap;
+      @include componentsBorder(3px solid $vreel_gray_2, 10px);
+      input[type="radio"]{
+        -webkit-appearance: radio;
+      }
+    }
+  }
+  &__withBorder{
+    @include componentsBorder(3px solid $secondary, 10px);
+    padding:$slide-padding;
+    margin-top: 30px;
+  }
+  &__backgroundAudio{
+    @include componentsBorder(3px solid $secondary, 10px);
+    padding:$slide-padding;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    select, input {
+      border-radius: 10px;
+      line-height: 1;
+      margin-bottom: 10px;
+      background: #ffffff;
+      padding: 5px !important;
+      width: 100%;
+      font-size: 10px;
+      @supports (-webkit-overflow-scrolling: touch) {
+        font-size: 16px !important;
+      }
+    }
+  }
+  &__slideLogo{
+    width: 40%;
+  }
+  &__toggleBtn {
+    @include displayFlex(auto, flex, center, center);
+    padding-top: 5px;
+  }
+  &__text{
+    padding: 10px;
+    color: $secondary;
+    text-align: center;
+    font-size: $text-xl;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  &__richText{
+    padding:$slide-padding;
+  }
+}
+.timiningInfo{
+  @include componentsBorder(3px solid $secondary, 10px);
+  padding:$slide-padding;
+}
+.slideTiming{
+  @include displayFlex(100%, flex, space-between,center);
+
+  margin-top: 15px;
+  padding-right: 10px;
+  &__Expiration{
+
+    &__input{
+      @include displayFlex(100%, flex, space-between,center);
+      width: 35%;
+      border-radius: 10px;
+      line-height: 1;
+      background: #ffffff;
+      input{
+        background: transparent;
+        border: 0;
+      }
+    }
+  }
+  &__label{
+    white-space: nowrap;
+    //background: $secondary;
+    font-size: 12px;
+    padding: 10px 5px;
+    font-weight: bold;
+  }
+  &__rotate{
+
+    font-size: 12px;
+    text-align: center;
+    padding: 11px 5px;
+    white-space: nowrap;
+  }
+  &__input{
+    width: 15%;
+
+  }
+  &__select{
+    width: 20%;
+  }
+  input,select{
+    border-radius: 10px;
+    line-height: 1;
+    background: #ffffff;
+    padding: 5px !important;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    @supports (-webkit-overflow-scrolling: touch) {
+      font-size: 16px !important;
+    }
+  }
+  &__note{
+    text-align: right;
+    margin-top: 0px;
+    line-height: 1.3;
+    font-size: 80%;
+  }
+}
+
+.linksGroup{
+  margin-top: 1.5rem;
+  transition: 200ms;
+
+  &__mainContent{
+    margin-bottom: 1.5rem;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  &__active{
+    border-radius: 13px;
+  }
+  &__deactive{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+  }
+
+  &__container{
+    max-width: 80%;
+    margin-inline: auto;
+    background-color: $secondary;
+    padding: 6px;
+    padding-bottom: 10px;
+    
+    &__content {
+        max-width: 80%;
+        margin-inline: auto;
+
+        &__title{
+          font-weight: $font-semibold;
+          padding-bottom: 10px;
+          @include displayFlex(100%,flex,center,center);
+          &__icons{
+            font-weight: $font-bold;
+          }
+        }
+    
+        p {
+          font-size: $text-small;
+          line-height: 21px;
+          color: $vreel_white;
+          text-align: center;
+        }
+
+        &__addCreadits{
+          @include displayFlex(80%, flex,space-between,center);
+          background-color: $vreel_white;
+          color: $primary;
+          padding: 6px 10px;
+          border-radius: 10px;
+          margin-inline: auto;
+
+          p{
+            color: $primary;
+            font-size: $text-small;
+          }
+          
+        }
+      }
+  }
+
+  &__bottom{
+    max-width: 80%;
+    background-color: $vreel_blue_dark;
+    margin: 0 auto;
+    padding: 8px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+
+    &__container{
+      @include displayFlex(85%, flex, space-between, center);
+      margin-inline: auto;
+      &__logoContainer{
+        @include displayFlex(100%, flex, flex-start, center);
+        &__logo{
+          @include displaySizing(40px,40px);
+          margin-right: 10px;
+          img{
+            @include displaySizing(100%, 100%);
+            object-fit: cover;
+          }
+        }
+      }
+
+      &__cross{
+        font-size: 17px;
+        color: $vreel_white;
+      }
+    }
+  }
+}
+
+ .select {
+   width: 100%;
+   padding: 10px;
+   border-radius: 10px;
+   outline: none;
+   font-size: 10px;
+   margin: 5px 0;
+   border: none;
+ }
+
+.display__color {
+  border: 1px solid $vreel_white;
+  padding: 6px 6px 8px;
+  border-radius: 4px;
+  position: relative;
+  margin: 2rem 1rem 1rem;
+
+  .fonttitle {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background: $vreel_deep_blue_dark;
+    padding: 0 0.5rem;
+    color: grey;
+    width: max-content;
+  }
+
+  .inputWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+    width: 100%;
+    gap: 0.4rem;
+
+    & > * {
+      flex: 1;
+    }
+  }
+}
+
+//  .submit {
+//    text-align: center;
+
+//    &__btn {
+//      background-color: #424242;
+//      padding: 6px 16px;
+//      font-size: 14px;
+//      font-weight: 500;
+//      color: $vreel_white;
+//      border-radius: 8px;
+//    }
+//  }

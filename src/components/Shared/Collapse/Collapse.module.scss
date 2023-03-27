@@ -1,0 +1,84 @@
+@import "@sass/settings/_settings";
+
+.slideContainer {
+  padding: 16px 0;
+  border-bottom: 1px dashed $secondary;
+  &:last-child{
+    border: 0;
+  }
+  &:first-child{
+    padding-top: 0;
+  }
+
+  .collapse {
+    background-color: $vreel_deep_blue_dark;
+    border: none;
+    font-weight: $font-semibold;
+    padding:15px;
+
+    &__button{
+      @include displayFlex(100%, flex, space-between, center);
+      color: $secondary;
+      margin-bottom: 15px;
+      padding: 10px 0;
+
+      span{
+          cursor: pointer;
+      }
+    }
+    &__text{
+      @include displayFlex(100%, flex, space-between, center);
+      color: $vreel_white;
+      margin-bottom: 15px;
+      font-size: 17px;
+      padding-bottom: 10px ;
+    }
+  }
+
+  .slide {
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.9s ease-in-out;
+    background-color: $vreel_deep_blue_dark;
+
+    .slideBody {
+      color: $vreel_white;
+
+      &__upArrows{
+        @include displayFlex(100%,flex,flex-end,center);
+        padding:0 10px 10px;
+        cursor: pointer;
+        img{
+          @include displaySizing(21px,12px);
+        }
+      }
+    }
+  }
+}
+
+// .activeHeight {
+//   border-radius: 10px;
+// }
+
+// .deActiveHeight {
+//   border-radius: 15px;
+// }
+
+.innerSlideContainer {
+  @include componentsBorder(1px solid $vreel_gray, auto);
+  margin: 10px 0;
+  .button {
+    color: $vreel_gray;
+    opacity: 0.8;
+  }
+  .slide {
+    .slideBody {
+      padding: 30px 16px;
+    }
+  }
+}
+
+.innerSlide {
+  padding: 0 4px;
+  color: $primary;
+}

@@ -1,0 +1,50 @@
+@import '../GeneralMenu/GeneralMenu.module.scss';
+
+.logOutBtn{
+    color: $vreel_white;
+    background-color: transparent;
+    border: 0;
+    font-weight: $font-bold;
+    font-size: $text-2xl;
+    cursor: pointer;
+    margin-bottom: 0;
+    margin-left: 20px;
+    @media only screen and (max-width:774px) {
+            margin-left: 0px;
+        }
+
+}
+.menuAccContainer{
+    @include displayFlex(auto, flex, flex-start, flex-start);
+    @include displaySizing(100%, 80vh);
+    flex-direction: column;
+    padding-top: 0px;
+    @media only screen and (max-width:774px) {
+        height: 90vh;
+    }
+    &__header{
+        @include displayFlex(100%, flex, space-between, center);
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        label{
+            text-transform: uppercase;
+            color: #fff;
+        }
+    }
+}
+.TransparentButtonWithBorder{
+    @include displayFlex(max-content, flex, space-between, center);
+    background-color: $primary;
+    padding: 10px 15px;
+    height: 38px;
+    color: $vreel_white;
+    border-radius: 20px;
+    border: solid 2px $vreel_white;
+    text-align: left;
+    img{
+        padding-right: 10px;
+
+    }
+}
+

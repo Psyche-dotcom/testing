@@ -1,0 +1,16 @@
+@import '@sass/settings/_settings';
+
+.menuCloseBtn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  .closeIcon {
+    color: $vreel_white;
+    font-size: 30px;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      color: $secondary;
+    }
+  }
+}

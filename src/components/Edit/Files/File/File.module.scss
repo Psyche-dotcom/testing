@@ -1,0 +1,62 @@
+@import '@sass/settings/__settings';
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+    @media only screen and (min-width:1024px) {
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 20px;
+        gap:16px;
+    }
+    @media only screen and (min-width:1660px) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 16px;
+    }
+
+    .gridItem{
+        background-color: $vreel_gray_dark;
+        // opacity: 0.8;
+        border-radius: 10px;
+
+        .type{
+            padding: 12px 0;
+            @media only screen and (min-width:1024px) {
+               padding: 20px 0 12px 0;
+            }
+
+            p{
+                color: $secondary;
+                text-transform: uppercase;
+            }
+        }
+        .inputContainers{
+            width: 100%;
+            padding: 8px 10px;
+            height: auto;
+            @media only screen and (min-width:1024px) {
+                width: 98%;
+                max-height: 418px;
+                overflow-y: auto;
+                direction: rtl;
+                margin: 0 0 8px 6px;
+                &::-webkit-scrollbar {
+                    width: 10px;
+                }
+        
+                &::-webkit-scrollbar-track {
+                    border-radius: 10px;
+                    border: 1px solid #ffffff;
+                }
+        
+                &::-webkit-scrollbar-thumb {
+                    background: #cbd5e0;
+                    border-radius: 4px;
+                    border-right: 3px solid transparent;
+                    border-left: 3px solid transparent;
+                    background-clip: padding-box;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+@import "@sass/settings/_settings";
+.slideinput {
+  width: 100%;
+  padding: 8px 10px;
+  @include componentsBorder(none, 5px);
+  outline: none;
+}

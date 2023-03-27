@@ -1,0 +1,76 @@
+@import "@sass/settings/_settings";
+.textarea {
+  width: 100%;
+  border-radius: 10px;
+  padding: 8px 10px;
+  outline: none;
+}
+
+.moreInfoBtn {
+  @include displayFlex(auto, flex, space-between, center);
+  padding-top: 12px;
+  &__infoBtn {
+    padding: 5px 10px;
+    background-color: $vreel_white;
+    border-radius: 7px;
+    .bold {
+      font-weight: $font-bold;
+    }
+    .italic {
+      font-style: italic;
+    }
+    .underline {
+      text-decoration: underline;
+    }
+  }
+}
+
+.moreInfo {
+  @include componentsBorder(1px solid $vreel_white, 10px);
+  @include displaySizing(100%, 100%);
+  &__flex {
+    @include displayFlex(100%, flex, space-between, flex-start);
+    padding: 6px 5px;
+    &__left {
+      width: calc(40% - 3px);
+      background-color: $secondary;
+      border-radius: 10px;
+      margin-right: 3px;
+
+      // &__imgContainer {
+      //     @include displaySizing(100%, 100px);
+      //     padding: 6px 5px;
+
+      //     img {
+      //         @include displaySizing(100%, 100%);
+      //         object-fit: cover;
+      //         border-radius: 8px;
+      //     }
+      // }
+
+      // &__addLogo {
+      //     @include displayFlex(100%, flex, center, center);
+      //     padding: 0 4px 3px 4px;
+
+      //     span {
+      //         font-size: 8px;
+      //         padding-right: 4px;
+      //         color: $vreel_white;
+      //     }
+      // }
+    }
+
+    &__right {
+      width: 60%;
+      padding-left: 3px;
+
+      &__button {
+        margin-bottom: 4px;
+      }
+    }
+  }
+  &__toggleBtn {
+    @include displayFlex(auto, flex, center, center);
+    padding-top: 17px;
+  }
+}

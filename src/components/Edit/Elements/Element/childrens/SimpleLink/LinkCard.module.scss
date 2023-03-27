@@ -1,0 +1,96 @@
+@import "@sass/settings/_settings";
+
+.link_card {
+  padding: 1rem 0.5rem;
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: $vreel_blue_dark;
+  &_left {
+    width: 45%;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+  }
+
+  &_right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .options {
+    background: $vreel_white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+
+    .button {
+      padding: 0.4rem 0;
+      width: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 10px;
+      color: $primary;
+      text-transform: capitalize;
+      span {
+        display: block;
+        margin-top: 5px;
+      }
+
+      &_active {
+        background-color: $secondary;
+      }
+    }
+  }
+
+  .inputWrapper {
+    display: flex;
+    align-items: flex-end;
+
+    & > * {
+      flex: 1;
+    }
+
+    .select {
+      box-sizing: content-box;
+      border-radius: 10px;
+      padding: 5px 8px;
+      font-size: 14px;
+      border: none;
+      outline: none;
+      background: $vreel_white;
+      font-family: "Poppins";
+      appearance: none;
+      background-image: url("/assets/icons/down-arrow.svg");
+      background-size: 24px;
+      background-repeat: no-repeat;
+      background-position-x: 92%;
+      background-position-y: 10px;
+      cursor: pointer;
+      text-indent: 10px;
+
+      &:focus {
+        outline: none;
+      }
+
+      .option {
+        font-size: 14px;
+        font-family: "Poppins";
+        background-color: white;
+        border-bottom: 1px solid $vreel_gray;
+      }
+    }
+  }
+}

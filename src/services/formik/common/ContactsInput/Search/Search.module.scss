@@ -1,0 +1,23 @@
+@import '@sass/settings/_settings';
+
+.searchWrapper{
+    background-color: $vreel_white;
+    border-radius: 30px;
+    color: $primary;
+    @include displayFlex(100%, flex, space-between, center);
+    padding: 3px 5px;
+    overflow: hidden;
+    input {
+        @include displaySizing(90%, 100%);
+        padding: 7px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: $text-base;
+        font-weight: $font-medium;
+    }
+    img{
+        @include displaySizing(20px,20px);
+        margin-left: 6px;
+    }
+}

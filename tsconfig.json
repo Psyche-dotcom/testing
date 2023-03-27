@@ -1,0 +1,73 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@sass/*": [
+        "src/styles/sass/*"
+      ],
+      "@redux/*": [
+        "src/redux/*"
+      ],
+      "@hooks/*": [
+        "src/hooks/*"
+      ],
+      "@types/*": [
+        "src/types/*"
+      ],
+      "@auth/*": [
+        "src/components/Auth/*"
+      ],
+      "@edit/*": [
+        "src/components/Edit/*"
+      ],
+      "@sections/*": [
+        "src/components/Sections/*"
+      ],
+      "@shared/*": [
+        "src/components/Shared/*"
+      ],
+      "@formik/*": [
+        "src/services/formik/*"
+      ],
+      "@graphql/*": [
+        "src/services/graphql/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/services/formik/common/Input/Input.tsx",
+    "src/pages/uploadImg.js",
+    "**/*.scss",
+    "next.config.js",
+    "src/components/Auth/Register/Register.js",
+    "src/pages/404.js",
+    "src/hooks/useGroupData.ts",
+    "src/components/Edit/Elements/Elements.jsx",
+    "src/components/Edit/Slides/Slides/Slides.tsx",
+    "src/components/Edit/Elements/Element/childrens/Members/index.tsx"
+  ]
+}

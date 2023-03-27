@@ -1,0 +1,123 @@
+@import "../../../../styles/sass/settings/_settings";
+
+.generalMenu {
+  position: fixed;
+  width: 100vw;
+  min-height: 100%;
+  background-color: $primary; //-> #000000;
+  opacity: 0.9;
+  transition: all 0.5s ease-in-out;
+  z-index: 9999999999999;
+  overflow: hidden;
+
+  @media only screen and (max-width: 642px) {
+    min-height: 100%;
+  }
+  .container {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    padding: 0 50px;
+    @media only screen and (max-width: 642px) {
+      padding: 0 10px;
+      //min-height: 100%;
+    }
+    .logoContainer {
+      position: absolute;
+      bottom: 0%;
+      right: 30px;
+      cursor: pointer;
+      @media only screen and (min-width: 768px) {
+        left: 55px;
+      }
+      //@media only screen and (max-width: 642px) {
+      //  bottom: 0px;
+      //}
+
+      // only for safari IPhone 6,,7,8
+      @media not all and (min-resolution: 0.001dpcm) {
+        @media only screen and (max-width: 642px) {
+          bottom: 1rem;
+        }
+      }
+      // iPhone 14 Pro Max and devices with the same screens
+      @media only screen and (min-width: 932px) and (orientation: portrait)
+      {
+        bottom: 1.3rem;
+      }
+
+      .logo {
+        @include displayFlex(auto, flex, flex-start, center);
+
+        p {
+          color: $vreel_white;
+        }
+        div {
+          @include displaySizing(47px, 52px);
+          img {
+            @include displaySizing(100%, 100%);
+            object-fit: cover;
+          }
+        }
+      }
+    }
+
+    .menuContainer {
+      height: 80vh;
+      @include displayFlex(100%, flex, space-between, flex-start);
+      flex-direction: column;
+      @media only screen and (max-width: 774px) {
+        height: 90vh;
+      }
+      &__menu {
+        @include displayFlex(auto, flex, flex-start, flex-end);
+        @include displaySizing(100%, 100%);
+        flex-direction: column;
+        padding-top: 70px;
+      }
+      &__menuLink {
+        @include displayFlex(100%, flex, flex-end, flex-start);
+        flex-direction: column;
+        position: absolute;
+        bottom: 4rem;
+        @media only screen and (min-width: 620px) {
+          bottom: 5rem;
+        }
+        // // only for safari IPhone 6,,7,8
+        // @media not all and (min-resolution:.001dpcm) {
+        //     @media only screen and (max-width:642px) {
+        //         bottom: 5rem;
+        //     }
+        // }
+
+        button {
+          font-weight: $font-bold;
+          border: none;
+          transition: all 0.5s;
+          text-transform: capitalize;
+          letter-spacing: 3px;
+          background-color: transparent;
+          font-size: $text-2xl;
+          padding: 0 10px;
+          cursor: pointer;
+          color: $vreel_white;
+          padding-bottom: 15px;
+
+          @media only screen and (max-width: 768px) {
+            font-size: $text-xl;
+          }
+          &:hover {
+            color: $secondary;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
+.active {
+  transform: translate(0px);
+}
+.deactive {
+  transform: translate(100%);
+}

@@ -1,0 +1,119 @@
+@import '@sass/settings/_settings';
+.vLinks {
+    width: 100%;
+    height: calc(100% - 2rem);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 48.4%);
+    grid-auto-rows: min-content;
+    grid-gap:1rem;
+    margin-top: 2rem;
+    padding: 0 .4rem;
+
+    @media only screen and (max-width:642px) {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 30.2%);
+    }
+
+    @media only screen and (max-width:1024px) and (min-width:642px){
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 31.5%);
+    }
+
+    @media only screen and (min-width:1500px) {
+      grid-template-rows: repeat(2, 49%);
+    }
+
+    // Iphone 4
+    @media only screen and (width:320px) and (height:480px) {
+      grid-template-rows: repeat(2, 49.5%);
+    }
+
+    // only for safari IPhone 6,,7,8
+    @media not all and (min-resolution:.001dpcm) {
+      @media only screen and (max-width:642px) {
+        grid-template-rows: repeat(3, 28%);
+      }
+    }
+
+  &__slide {
+    box-sizing: border-box;
+    &__container {
+      @include displayFlex(100%, flex, space-between, flex-start);
+      flex: 0 0 calc(100% / 12 * 12);
+      height: 100%;
+
+      &__orderFrist {
+        @media only screen and (max-width:1024px) {
+          order: 1;
+        }
+      }
+
+      &__orderLast {
+        @media only screen and (max-width:1024px) {
+          order: 2;
+        }
+      }
+
+      &__imgContainer {
+        width: 54%;
+        height: 100%;
+        box-sizing: border-box;
+        border-radius: 10px;
+        overflow: hidden;
+
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+          border-radius: 10px
+        }
+      }
+
+      &__vLinksTextContainer {
+        @include displayFlex(44%, flex, space-around, center);
+        flex-direction: column;
+        height: 100%;
+        color: $vreel_white;
+        text-align: center;
+        line-height: 120%;
+
+        &__vLinksTexts {
+          h4 {
+            padding-bottom: 5px;
+          }
+        }
+
+        &__btnContainer {
+
+          p {
+            font-size: 13px;
+            padding-bottom: 3px;
+            @include textElipsis(2);
+          }
+
+          &__btn {
+
+            button {
+              width: 90%;
+              background-color: $vreel_white;
+              font-size: 13px;
+              font-weight: 600;
+              padding: 6px 8px;
+              border-radius: 5px;
+              @media only screen and (max-width:642px){
+                padding: 4px;
+              }
+
+            }
+
+            &__readMore {
+              text-transform: uppercase;
+              margin-bottom: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

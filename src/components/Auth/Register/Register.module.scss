@@ -1,0 +1,138 @@
+@import "../Login/Login.module.scss";
+
+.userInputGroup{
+  position: relative;
+  label{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #000;
+    font-weight: bold;
+    transform: translateY(-50%);
+    width: 98px;
+  }
+}
+.user_input {
+  width: 100%;
+    color: $primary;
+    padding: 12px 20px;
+    background-color: $vreel_white;
+    outline: none;
+    padding-left: 116px;
+    border-radius: 16px ;
+    border: none;
+  font-size: 16px;
+}
+
+.user_loading {
+  height: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: $vreel_red;
+  @media only screen and (max-width: 1240px) {
+    margin-bottom: 60px;
+    line-height: 20px;
+  }
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 80px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+}
+
+.user_not_found {
+  color: green;
+}
+
+.error {
+  color: $vreel_red;
+  margin-bottom: 8px;
+ 
+}
+
+.formControl{
+  .info {
+      font-weight: $font-regular;
+      color:$vreel_gray;
+      padding: .5rem 0 .5rem 2rem;
+  }
+  .error{
+      color: $vreel_red;
+      margin-bottom: 10px;
+      margin-left: 10px;
+  }
+}
+.input {
+  width: 100%;
+  color: $primary;
+  padding: 12px 20px;
+  background-color: $vreel_white;
+  outline: none;
+  margin-bottom: 8px;
+  @include componentsBorder(none,16px);
+}
+
+
+.input {
+  width: 100%;
+  color: $primary;
+  padding: 12px 20px;
+  background-color: $vreel_white;
+  outline: none;
+  margin-bottom: 8px;
+  @include componentsBorder(none,16px);
+}
+.checkbox {
+  @include displayFlex(100%, flex, center, center);
+  margin-bottom: 30px;
+  color: $vreel_white;
+  @media only screen and (min-width: 568px) {
+    width: max-content;
+    margin: 0 auto 30px auto;
+  }
+  .formCheckbox {
+    min-width: 18px;
+    min-height: 18px;
+    @include componentsBorder(2px solid $vreel_white, 50%);
+    background-color: white;
+    padding: 0;
+    margin-right: 10px;
+    -webkit-appearance: radio;
+  }
+  .active {
+    background-color: $secondary;
+  }
+  span {
+    color: $vreel_white;
+    opacity: 0.9;
+  }
+}
+.logIn {
+  padding: 30px 0;
+  text-align: center;
+  color: $vreel_white;
+  p {
+    .logInBtn {
+      color: $secondary;
+      text-decoration: underline;
+      font-weight: 700;
+      padding-left: 5px;
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+}
+.terms {
+  text-align: center;
+  color: $vreel_white;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  p {
+    span {
+      color: $secondary;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}

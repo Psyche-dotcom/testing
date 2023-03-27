@@ -1,0 +1,18 @@
+@import '@sass/settings/_settings';
+
+.btnForm {
+  background-color: $secondary;
+  width: 58%;
+  margin: 0 auto;
+  padding: 8px 12px;
+  border-radius: 20px;
+  color: $vreel_white;
+  font-weight: $font-semibold;
+  font-size: $text-md;
+  cursor: pointer;
+  border: none;
+  &:hover {
+    background-color: $secondary;
+    opacity: 0.7;
+  }
+}

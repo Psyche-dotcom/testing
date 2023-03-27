@@ -1,0 +1,146 @@
+@import '@sass/settings/_settings';
+
+.desktop {
+  background-color: $vreel_blue_dark;
+  padding: 15px;
+  display: none;
+  border-radius: 10px;
+
+  @media (min-width: 1020px) {
+    display: block;
+  }
+
+  &__container {
+    background-color: $vreel_light_gray;
+    padding: 15px;
+    border-radius: 10px;
+    &__usersLogo {
+      @include displayFlex(100%, flex, flex-start, center);
+      padding-bottom: 18px;
+      span {
+        color: $vreel_white;
+        font-weight: $font-semibold;
+        font-size: 22px;
+        padding-left: 10px;
+      }
+    }
+    &__personalInfo {
+      @include displayFlex(100%, flex, flex-start, flex-start);
+      &__leftSides {
+        width: 320px;
+        @include componentsBorder(2px dashed $secondary, 10px);
+        padding: 10px 15px;
+
+        p {
+          color: $vreel_white;
+          text-align: center;
+          font-weight: $font-semibold;
+          font-size: 20px;
+          padding-top: 10px;
+          padding-bottom: 20px;
+        }
+      }
+      &__rightSides {
+        flex: 1;
+        height: 100%;
+        display: grid;
+        grid-template-rows: auto 150px 1fr;
+        row-gap: 1rem;
+        margin-left: 1rem;
+        place-items: start;
+        &__firstRow {
+          display: grid;
+          grid-template-columns: auto auto 1fr;
+          grid-column-gap: 10px;
+          width: 100%;
+
+          @media (max-width: 1200px) {
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 15px;
+          }
+
+          &__fristColumn {
+            @include componentsBorder(2px dashed $secondary, 10px);
+            padding: 20px;
+            width: max-content;
+            height: fit-content;
+
+            @media (max-width: 1200px) {
+              width: 100%;
+            }
+            p {
+              color: $vreel_white;
+              font-weight: $font-semibold;
+              padding-bottom: 10px;
+              text-align: center;
+            }
+          }
+          &__secondColumn {
+            @include displayFlex(100%, flex, flex-start, flex-start);
+            flex-direction: column;
+            img {
+              @include displaySizing(182px, 193px);
+              margin-bottom: 12px;
+
+              @media (max-width: 1200px) {
+                @include displaySizing(100%, 300px);
+                object-fit: cover;
+                border-radius: 15px;
+              }
+            }
+            a {
+              display: block;
+              color: $vreel_blue;
+              text-decoration: none;
+            }
+          }
+        }
+
+        &__secondRow {
+          width: 100%;
+          height: 100%;
+          margin-top: 1rem;
+
+          h3 {
+            text-align: center;
+            color: $vreel_white;
+            font-weight: $font-semibold;
+          }
+        }
+
+        &__thirdRow {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          gap: 1rem;
+
+          @media (max-width: 1200px) {
+            flex-direction: column;
+          }
+
+          &__firstColumn {
+            @include componentsBorder(2px dashed $secondary, 10px);
+            padding: 12px;
+            width: 210px;
+
+            @media (max-width: 1200px) {
+              width: 100%;
+            }
+
+            h4 {
+              text-align: center;
+              color: $vreel-white;
+              font-size: $text-lg;
+              font-weight: $font-bold;
+            }
+          }
+
+          &__secondColumn {
+            @include componentsBorder(2px dashed $secondary, 10px);
+            flex: 1;
+          }
+        }
+      }
+    }
+  }
+}

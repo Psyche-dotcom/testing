@@ -1,0 +1,83 @@
+@import "../../../../styles/sass/settings/_settings";
+.privacyPage{
+  background-color: #242a41;
+
+  border-radius: 1rem;
+  label{
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  section{ margin-top: 20px}
+  .levelForm{
+    padding: 0 1rem 1rem 1rem;
+
+    &__two,
+    &__one{
+      background-color: $vreel_light_gray;
+      border-radius: 20px;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    label{
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+    input[type="text"]{
+      width: 100%;
+      padding: 10px;
+      @include componentsBorder(2px solid $vreel_white, 10px);
+    }
+    .btnGreen{
+      background-color: $vreel_green-hsl;
+      color: $vreel_white;
+      @include componentsBorder(2px solid $vreel_green-hsl, 10px);
+      padding: 10px 20px;
+      font-weight: $font-bold;
+    }
+    .slideTiming {
+      @include displayFlex(100%, flex, space-between, center);
+      color: $vreel_white;
+      margin-top: 15px;
+      padding-right: 10px;
+
+      &__label {
+        white-space: nowrap;
+
+        font-size: 12px;
+        padding: 20px 5px;
+
+        font-weight: bold;
+      }
+
+      &__rotate {
+
+        font-size: 12px;
+        text-align: center;
+        padding: 11px 5px;
+        white-space: nowrap;
+      }
+
+      &__input {
+        width: 15%;
+
+      }
+
+      &__select {
+        width: 35%;
+      }
+
+      input, select {
+        border-radius: 10px;
+        line-height: 1;
+        background: #ffffff;
+        padding: 5px !important;
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+        @supports (-webkit-overflow-scrolling: touch) {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+}

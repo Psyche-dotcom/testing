@@ -1,0 +1,54 @@
+@import '@sass/settings/_settings';
+
+.d_dashboard {
+  position: relative;
+  display: none;
+  background: $primary;
+  padding: 1.5rem 2rem;
+
+  @media (min-width: 1024px) {
+    display: block;
+  }
+
+  &__container {
+    display: flex;
+    height: max-content;
+    background-color: $vreel_light_gray_dark;
+    border-radius: 20px;
+    padding: 20px;
+    & > *:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    .left {
+      position: sticky;
+      top: 0;
+      left: 0;
+      height: max-content;
+
+      &_content {
+        @include displaySizing(380px, 100%);
+        position: relative;
+        padding-bottom: 2rem;
+      }
+
+      .background {
+        //background-color: $secondary;
+        border-radius: $rounded-3xl;
+        position: absolute;
+        top: 0;
+        left: 1rem;
+        right: 0;
+        height: 100%;
+        padding: 1rem 0;
+      }
+    }
+
+    .right {
+      width: calc(100% - 400px);
+      .emptyTitle {
+        color: $vreel_white;
+      }
+    }
+  }
+}

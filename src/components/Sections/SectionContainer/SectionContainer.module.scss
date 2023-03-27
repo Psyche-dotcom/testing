@@ -1,0 +1,97 @@
+@import "@sass/settings/_settings";
+
+.sectionContainer {
+  @include displaySizing(100%, 100%);
+  padding: 1rem 3rem;
+  padding-bottom: 0;
+  margin: 0 auto;
+  overflow: hidden;
+
+  @media only screen and (max-width: 642px) {
+    padding: 0.5rem 1rem;
+    padding-bottom: 0;
+  }
+
+  &__childrenContainer {
+    width: 100%;
+    height: calc(100% - calc(40px + var(--phei ght)));
+
+    // &__content{
+    //   max-width: 800px;
+    //   margin: auto;
+    //   height:100%;
+    // }
+  }
+
+  &__buttonTopContainer {
+    @include displayFlex(100%, flex, space-between, center);
+    height: 40px;
+
+    h2 {
+      font-weight: 600;
+      color: $vreel_white;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+
+    &__menu {
+      width: 36px;
+      height: 36px;
+      color: $vreel_white;
+      cursor: pointer;
+    }
+  }
+
+  &__buttonBottomContainer {
+    @include displayFlex(100%, flex, center, center);
+    height: var(--height);
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,-50%) rotate(180deg);
+    filter: var(--isDark);
+    cursor: pointer;
+    &__down{
+      transform: translate(-50%,-50%) rotate(0deg);
+    }
+    img {
+      width: auto;
+      height: 15px;
+      object-fit: cover;
+      cursor: pointer;
+    }
+    .arrow_container {
+
+      /* cubic-bezier-easing = sine / mehr Beispiele: https://easings.net/ */
+      animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+      cursor: pointer;
+      height: 15px;
+    }
+
+    .arrow_down {
+      height: 3px;
+      background: white;
+      transform: rotate(25deg);
+      transform-origin: 0% 0%;
+      border-radius: 1px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        left: 100%;
+        border-radius: 1px;
+        background: white;
+        transform: rotate(-50deg);
+        transform-origin: 0% 100%;
+      }
+    }
+    @keyframes bounce {
+      50% {
+        transform: translateY(-5px);
+      }
+    }
+  }
+}

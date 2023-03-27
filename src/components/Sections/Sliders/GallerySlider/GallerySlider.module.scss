@@ -1,0 +1,75 @@
+
+@import "../HeroSlider/HeroSlider.module.scss";
+@import "../HeroSlider/HeroSlide/HeroSlide.module.scss";
+
+
+.gallerySlide{
+  //
+  @include displaySizing(100%, 100%);
+  position: relative;
+
+  .galleryMedia {
+    @include displaySizing(100%, 100%);
+    position: relative;
+  }
+
+  .menuContainer {
+    @include displayFlex(100%, flex, space-between, center);
+    height: 40px;
+    position: fixed;
+    top: 1rem;
+    left: 0;
+    z-index: 40;
+    padding: 0rem 3rem;
+    overflow: hidden;
+
+    @media only screen and (max-width: 642px) {
+      padding: 1rem;
+      top: .5rem;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 600;
+      color: $vreel_white;
+      text-transform: uppercase;
+    }
+
+    &__menu {
+      color: $vreel_white;
+      width: 30px;
+      height: 30px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .carrotDown {
+    position: fixed;
+    left: 50%;
+    bottom: -3px;
+    z-index: 40;
+    transform: translate(-50%) rotate(180deg);
+    cursor: pointer;
+
+    img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+    }
+  }
+
+  .galleryContainer {
+    @include displaySizing(100%, 100%);
+    position: relative;
+    z-index: 20;
+    padding: 1.5rem 1rem;
+    background-color: rgba($color: #000, $alpha: 0);
+
+    @media (min-width: 1020px) {
+      padding: 2rem 3rem;
+    }
+  }
+}

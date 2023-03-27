@@ -1,0 +1,26 @@
+@import '@sass/settings/_settings';
+
+.inputContent {
+    max-width: 85%;
+    margin-inline: auto;
+
+    &__btn {
+        @include displayFlex(100%, flex, space-between, center);
+        margin-bottom: 2rem;
+
+        select {
+            width: 30%;
+            padding: 7px;
+            border-radius: 13px;
+            font-weight: $font-medium;
+            outline: none;
+        }
+    }
+    &__input {
+        margin-bottom: 15px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

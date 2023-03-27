@@ -1,0 +1,87 @@
+@import '@sass/settings/_settings';
+
+
+.content {
+    background-color: $vreel_blue_dark;
+    padding: 7px;
+    margin-bottom: 17px;
+    &:last-child{
+        margin-bottom: 0
+    }
+
+    &__topPart {
+        @include displayFlex(100%, flex, space-between, center);
+
+        &__title {
+            color: $secondary;
+            font-weight: $font-semibold;
+            font-size: $text-md;
+        }
+
+        button {
+            transition: all 0.9s ease-in-out;
+        }
+    }
+
+    &__rank {
+        font-size: $text-small;
+        font-weight: $font-semibold;
+        padding: 16px 0;
+        text-align: center;
+    }
+
+
+    &__hiddenPart {
+        width: 100%;
+        overflow: hidden;
+        transition: all 0.9s ease-in-out;
+        background-color: $vreel_blue_dark;
+
+        &__body {
+            &__wrapper {
+                p {
+                    font-size: $text-small;
+                    padding: 15px 0 5px;
+                    line-height: 21px;
+                }
+
+                &__inputContent {
+                    padding-top: 15px;
+                }
+
+                &__subGroup {
+                    padding-top: 9px;
+                    padding-bottom: 15px;
+                    @include displayFlex(100%, flex, center, center);
+                }
+
+                &__diamontSubGroup {
+                    background-color: $vreel_light_gray;
+                    padding: 22px;
+                    @include displayFlex(100%, flex, space-between, center);
+
+                    p {
+                        width: 80%;
+                        text-align: center;
+                        font-size: $text-small;
+                        font-weight: $font-semibold;
+                        padding: 0;
+                    }
+                }
+
+                &__bottom {
+                    @include displayFlex(70%, flex, space-between, flex-end);
+                    margin-left: auto;
+                    padding: 28px 0 10px;
+                }
+            }
+        }
+    }
+}
+.lastPart {
+    p {
+        font-size: $text-xxs;
+        text-align: center;
+        line-height: 15px;
+    }
+}

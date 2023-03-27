@@ -1,0 +1,534 @@
+"filename", "language", "JavaScript", "TypeScript", "JSON with Comments", "Markdown", "JSON", "XML", "vCard", "SCSS", "TypeScript React", "comment", "blank", "total"
+"c:\Users\aaron\Documents\vreel-webapp\README.md", "Markdown", 0, 0, 0, 34, 0, 0, 0, 0, 0, 0, 15, 49
+"c:\Users\aaron\Documents\vreel-webapp\eric-nesser.vcf", "vCard", 0, 0, 0, 0, 0, 0, 37, 0, 0, 0, 1, 38
+"c:\Users\aaron\Documents\vreel-webapp\next-env.d.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 6
+"c:\Users\aaron\Documents\vreel-webapp\next.config.js", "JavaScript", 30, 0, 0, 0, 0, 0, 0, 0, 0, 10, 3, 43
+"c:\Users\aaron\Documents\vreel-webapp\package-lock.json", "JSON", 0, 0, 0, 0, 10618, 0, 0, 0, 0, 0, 1, 10619
+"c:\Users\aaron\Documents\vreel-webapp\package.json", "JSON", 0, 0, 0, 0, 89, 0, 0, 0, 0, 0, 1, 90
+"c:\Users\aaron\Documents\vreel-webapp\pdf-worker.js", "JavaScript", 5, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\add-to-contact-icon.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\address-book.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\back-icon.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\background-credit-icon.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\ball-pen-line.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\bg-v-card.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\call-icon.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\Group.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\call.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\cart.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\contact.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\document.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\employee.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\event.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\global-line.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\mail.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\page.svg", "XML", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 1, 11
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\slide.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\stack-line.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\calltoaction\text.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\close-icon.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\connection.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\delete-bin-2-line.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\down-arrow.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\follow-icon.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\followed-icon.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\following.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\Calendar.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\CheckmarkCircle.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\Contact Card Group.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\DismissCircle.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\Image.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\Link Square.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\Music Note.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\Vreel_logo_small.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\add.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\addLogo.svg", "XML", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 1, 11
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\add_contact.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\amazon.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\audioOff.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\audioOn.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\bitpay.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\carrot-down.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\checkmark.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\complete.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\contactCard.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\contribution\contribution-1.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\contribution\contribution-2.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\contribution\contribution-3.svg", "XML", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 1, 11
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\contribution\contribution-4.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\contribution\contribution-5.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\contribution\contribution-6.svg", "XML", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 1, 12
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\cross_icon.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\crypto.svg", "XML", 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 1, 9
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\delete-bin-line.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\desktop.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\dollar.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\dots.svg", "XML", 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 1, 9
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\down-arrow-light.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\down-arrow.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\drag.svg", "XML", 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 1, 9
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\group.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\heart-empty.svg", "XML", 0, 0, 0, 0, 0, 12, 0, 0, 0, 0, 1, 13
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\heart-fill.svg", "XML", 0, 0, 0, 0, 0, 13, 0, 0, 0, 0, 1, 14
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\help.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\icon-address.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\icon-follow.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\icon-info.svg", "XML", 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 1, 8
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\icon-menu.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\icon-share.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\icons-qr-code.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\klarna.svg", "XML", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 1, 11
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\link.svg", "XML", 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 1, 17
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\menu-2.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\menu.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\menu2.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\menu3.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\menu4.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\menu5.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\minus-icon.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\mobile.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\music.svg", "XML", 0, 0, 0, 0, 0, 39, 0, 0, 0, 0, 1, 40
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\music\music-1.svg", "XML", 0, 0, 0, 0, 0, 39, 0, 0, 0, 0, 1, 40
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\music\music-2.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\music\music-3.svg", "XML", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 1, 11
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\music\music-4.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\music\music-5.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\music\music-6.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\music\music-7.svg", "XML", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 1, 12
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\off.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\on.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\pause-empty.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\pause.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\paypal.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\play-one.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\play.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\plus-icon.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\qr.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\search.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\share-plan.svg", "XML", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 1, 12
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\clubhouse.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\discord.svg", "XML", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 1, 12
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\facebook.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\instagram.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\linkedin.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\pinterest.svg", "XML", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 1, 12
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\snapchat.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\telegram.svg", "XML", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 1, 11
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\tiktok.svg", "XML", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 1, 11
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\tumblr.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\twitch.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\twitter.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\vimeo.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\socials\youtube.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\sound_cloud.svg", "XML", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 1, 11
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\spotify.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\subGroup.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\tidal.svg", "XML", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 1, 12
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\tv.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\up-arrow-light.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\user.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\users.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\vcard.svg", "XML", 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 1, 16
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\vcard_small.svg", "XML", 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 1, 15
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\venmo.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\vreel-powered.svg", "XML", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 1, 11
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\vreel-qr.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\icons\youtubesBg.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\Events1.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\Events2.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\Events3.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\Vreel_logo.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\honey.svg", "XML", 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 1, 16
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\instagram.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\man.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\sceneray.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\snapChat.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\twitch.svg", "XML", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\twitter.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\vLinks1.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\vLinks2.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\vLinks3.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\images\youtube.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\like-icon.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\liked-icon.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\logo.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\menu-bars.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\next.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\prev.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\qr-icon.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share-icon.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\Paper Plane.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\airdrop.svg", "XML", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 1, 11
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\arrow.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\facebook.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\google.svg", "XML", 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 1, 8
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\hook.svg", "XML", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 1, 12
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\instagram.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\linkedin.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\qr-lg.svg", "XML", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 1, 11
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\qr.svg", "XML", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\tumblr.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\twitter.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\share\whatsapp.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\slide-credit-icon.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 5
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\slide-sound-icon-2.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\slide-sound-icon.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\slide-sound-mute-icon-2.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\slide-sound-mute-icon.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\aaron\Documents\vreel-webapp\public\assets\vercel.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 4
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Auth\Login\Login.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 71, 0, 0, 2, 73
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Auth\Login\Login.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 141, 15, 14, 170
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Auth\Register\Register.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 130, 0, 0, 9, 139
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Auth\Register\Register.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 219, 4, 21, 244
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Auth\SecureRoute\AuthProvider.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 42, 0, 8, 50
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Auth\SecureRoute\SecureRoute.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 26, 0, 6, 32
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\AccountSettings\AccountSettings.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 39, 0, 7, 46
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\DesktopSetting\DesktopSettings.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 130, 0, 0, 17, 147
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\DesktopSetting\DesktopSettings.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 174, 5, 15, 194
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\DesktopSetting\childrens\AccountCompletionStatus\AccountCompletionStatus.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 105, 0, 6, 13, 124
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\DesktopSetting\childrens\AccountCompletionStatus\AccountCompletionStatus.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 134, 5, 12, 151
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\DesktopSetting\childrens\AccountCompletionStatus\statusData.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 48, 0, 2, 50
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\DesktopSetting\childrens\AccountLoginInfo\AccountLoginInfo.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 11, 0, 0, 3, 14
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\DesktopSetting\childrens\AccountLoginInfo\AccountLoginInfo.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 83, 2, 6, 91
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\PersonalInfo\AccountSensitivity.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 29, 0, 0, 6, 35
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\PersonalInfo\AccountSensitivity.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 3, 28
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\PersonalInfo\PersonalInfo.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 42, 0, 3, 6, 51
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\PersonalInfo\PersonalInfo.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 76, 2, 7, 85
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\PersonalInfo\PersonalInfoFields.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 129, 8, 5, 142
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\AccountSettings\mobileSettings\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 60, 1, 4, 65
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Contacts\Contact\Contact.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 22, 0, 0, 4, 26
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Contacts\Contact\Contact.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 29, 0, 3, 32
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Contacts\Contacts.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 5, 70
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Contacts\Contacts.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 82, 0, 7, 89
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Contacts\ContactsInputField\ContactsInputField.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Contacts\ContactsInputField\ContactsInputField.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 4, 21
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Groups\ActiveGroup\ActiveGroup.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 73, 0, 0, 14, 87
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Groups\ActiveGroup\ActiveGroup.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 125, 1, 9, 135
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Groups\ActiveGroups\ActiveGroups.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 2, 14
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Groups\ActiveGroups\ActiveGroups.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 26, 0, 3, 29
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Groups\Group\Group.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 39, 0, 0, 1, 40
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Groups\Group\Group.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 45, 3, 5, 53
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Groups\Groups.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 1, 7
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Groups\Groups.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 3, 14
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Groups\MyGroups\MyGroups.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 32, 0, 0, 4, 36
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Contacts\Groups\MyGroups\MyGroups.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 50, 0, 4, 54
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\DisplayOptions\Buttons\ToggleButton.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 23, 0, 0, 5, 28
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\DisplayOptions\Buttons\ToggleButton.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 23, 0, 4, 27
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\DisplayOptions\DisplayOption\DisplayOption.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 376, 53, 22, 451
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\DisplayOptions\DisplayOption\displayData.ts", "TypeScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\DisplayOptions\DisplayOptions.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 191, 0, 9, 35, 235
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\DisplayOptions\DisplayOptions.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 4, 21
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\Buttons\BtnHide.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 14, 0, 3, 17
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\Buttons\BtnShow.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 14, 0, 3, 17
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\Element.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 187, 7, 19, 213
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\Children.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 361, 0, 9, 58, 428
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\Contact\Contact.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 92, 3, 10, 105
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\ContributionLinks\ContributionLinks.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 89, 0, 9, 98
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\ContributionLinks\contributionData.ts", "TypeScript", 0, 30, 0, 0, 0, 0, 0, 0, 0, 0, 1, 31
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\Embed\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 111, 0, 11, 122
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\Events\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 31, 0, 8, 39
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\Gallery\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 197, 39, 16, 252
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\Members\drag.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 85, 10, 19, 114
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\Members\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 116, 5, 16, 137
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\Music\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 89, 0, 9, 98
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\Music\musicData.ts", "TypeScript", 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 1, 35
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\SimpleLink\LinkCard.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 84, 0, 1, 12, 97
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\SimpleLink\LinkCard.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 205, 14, 13, 232
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\SimpleLink\SimpleLink.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 256, 7, 29, 292
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\Socials\Socials.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 238, 21, 21, 280
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\Socials\socialsData.ts", "TypeScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 2, 22
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\SuperLink\SuperLink.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 140, 5, 12, 157
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\Test.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 2, 10
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\TextArea\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 98, 32, 15, 145
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Element\childrens\VideoGallery\VideoGallery.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 352, 0, 14, 366
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Elements.jsx", "JavaScript", 398, 0, 0, 0, 0, 0, 0, 0, 0, 74, 37, 509
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\Elements.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 157, 0, 7, 20, 184
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\ElementsData.ts", "TypeScript", 0, 21, 0, 0, 0, 0, 0, 0, 0, 80, 4, 105
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Elements\schema.ts", "TypeScript", 0, 204, 0, 0, 0, 0, 0, 0, 0, 1, 12, 217
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Enterprise\Enterprise.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 54, 0, 4, 11, 69
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Enterprise\Enterprise.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 277, 0, 12, 289
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\Desktop\Desktop.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 5, 46
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\Desktop\Desktop.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 62, 0, 6, 68
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\EditFiles\EditFiles.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 12, 1, 4, 17
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\FileInput\FileInput.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 77, 0, 0, 3, 80
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\FileInput\FileInput.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 143, 0, 4, 147
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\File\File.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 54, 0, 1, 7, 62
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\File\File.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 75, 1, 10, 86
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\FilesData.ts", "TypeScript", 0, 85, 0, 0, 0, 0, 0, 0, 0, 0, 2, 87
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\Mobile\Mobile.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 64, 0, 0, 10, 74
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\Mobile\Mobile.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 87, 8, 9, 104
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\Players\Players.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 19, 0, 0, 4, 23
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\Players\Players.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 46, 0, 6, 52
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\UploadImages.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 52, 1, 5, 58
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Files\UploadImagesModal.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 55, 6, 5, 66
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Layout\Desktop\Dashboard-lg-sidebar.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 144, 0, 5, 24, 173
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Layout\Desktop\Dashboard-lg.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 44, 0, 0, 8, 52
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Layout\Desktop\DesktopDashboard.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 36, 5, 7, 48
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Layout\Desktop\DesktopSidebar.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 219, 9, 13, 241
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Layout\Layout.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 39, 0, 5, 44
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Layout\Mobile\MobileDashboard.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 37, 0, 2, 7, 46
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Layout\Mobile\MobileDashboard.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 83, 36, 11, 130
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Layout\Mobile\MobileForm.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 234, 0, 0, 15, 249
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Layout\Mobile\MobileForm.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 147, 34, 14, 195
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Layout\Mobile\MobileFormButton.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 93, 3, 9, 105
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Layout\Mobile\ToggleButton.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 38, 0, 3, 41
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\NewsFeed\Newsfeed.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 10, 0, 1, 3, 14
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\NewsFeed\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 3, 16
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\QrCodes\QrCodes.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 133, 0, 2, 16, 151
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\QrCodes\QrCodes.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 179, 2, 8, 189
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Preview\PreviewContent\PreviewContent.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 217, 90, 15, 322
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Preview\PreviewSliders\PreviewSlider.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 160, 0, 17, 38, 215
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Preview\PreviewSliders\PreviewSlider.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 133, 12, 7, 152
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Preview\PreviewSliders\PreviewSliders.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 89, 5, 11, 105
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Preview\PreviewSliders\SlideData.ts", "TypeScript", 0, 53, 0, 0, 0, 0, 0, 0, 0, 7, 7, 67
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\SlidesData.ts", "TypeScript", 0, 80, 0, 0, 0, 0, 0, 0, 0, 20, 4, 104
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Slides\Slide\AdvencedSlide\AdvancedLinksGroup.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 115, 4, 9, 128
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Slides\Slide\AdvencedSlide\AdvancedSlide.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 225, 0, 29, 31, 285
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Slides\Slide\AdvencedSlide\AdvancedSlide.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 143, 5, 7, 155
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Slides\Slide\CallToActions\CallToActions.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 46, 0, 0, 3, 49
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Slides\Slide\CallToActions\CallToActions.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 169, 27, 12, 208
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Slides\Slide\Slide.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 133, 0, 25, 25, 183
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Slides\Slide\Slide.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 570, 11, 23, 604
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Slides\Slides.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 83, 0, 3, 10, 96
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\Slides\Slides\Slides.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 202, 74, 18, 294
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\data.ts", "TypeScript", 0, 92, 0, 0, 0, 0, 0, 0, 0, 33, 7, 132
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Edit\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 3, 21
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\CommonSocialsLinks\CommomSocialsLinks.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 52, 0, 4, 56
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\CommonSocialsLinks\CommonSocialsLinks.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 82, 0, 3, 13, 98
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Contribute\Contribute.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 54, 0, 4, 58
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Embed\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 1, 8
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Events\Events.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 96, 0, 39, 22, 157
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Events\Events.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 80, 0, 4, 84
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Events\EventsData.ts", "TypeScript", 0, 44, 0, 0, 0, 0, 0, 0, 0, 0, 2, 46
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Links\Links.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 77, 0, 0, 16, 93
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Links\Links.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 57, 17, 6, 80
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\MainContainer\MainContainer.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 13, 0, 0, 3, 16
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\MainContainer\MainContainer.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 3, 23
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\MusicLinks\MusicLinks.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 66, 0, 3, 69
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Section.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 1, 11
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Section.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 129, 13, 10, 152
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\SectionContainer\SectionContainer.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 80, 0, 6, 11, 97
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\SectionContainer\SectionContainer.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 65, 2, 5, 72
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sections.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 433, 85, 39, 557
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\GallerySlider\GallerySlider.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 62, 0, 1, 12, 75
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\GallerySlider\GallerySlider.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 151, 11, 8, 170
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\GalleryContent\GalleryContent.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 18, 0, 1, 4, 23
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\GalleryContent\GalleryContent.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 164, 8, 12, 184
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\Info\Info.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 108, 0, 0, 25, 133
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\Info\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 129, 0, 14, 143
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\QR\QR.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 66, 0, 42, 19, 127
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\QR\QRCodePage.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 30, 0, 0, 7, 37
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\QR\QRCodePage.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 84, 23, 3, 110
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\QR\index copy.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 103, 7, 13, 123
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\QR\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 100, 14, 12, 126
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\Share\Share.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 96, 0, 35, 21, 152
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\Share\Share.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 128, 29, 17, 174
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\Share\shareData.ts", "TypeScript", 0, 48, 0, 0, 0, 0, 0, 0, 0, 0, 3, 51
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\SliderContent\SliderContent.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 318, 0, 23, 35, 376
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\SliderContent\SliderContent.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 350, 48, 33, 431
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\SliderContent\cta.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 195, 1, 9, 205
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\SliderImage\SliderImage.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 33, 0, 3, 36
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\SliderVideo\SliderVideo.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 1, 9
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\SliderVideo\SliderVideo.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 101, 33, 5, 139
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\SliderVideo\SliderVideo2.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 44, 0, 2, 46
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\SliderVideo\VideoPlayer.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 72, 4, 11, 87
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\SwiperSlideContainer\HeroSlider.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 7, 0, 2, 3, 12
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\SwiperSlideContainer\SwiperSlideContainer.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 2, 11
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\image\Image.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\image\Image.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 2, 6
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\video\VideoJs.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 34, 7, 10, 51
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HelperComps\video\VideoJsPlay.js", "JavaScript", 34, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9, 45
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HeroSlide\HeroSlide.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 42, 0, 1, 7, 50
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HeroSlide\HeroSlide.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 213, 43, 14, 270
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HeroSlider.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 7, 0, 2, 3, 12
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\HeroSlider.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 303, 19, 22, 344
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Sliders\HeroSlider\schema.ts", "TypeScript", 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 3, 44
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\Socials\Socials.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 99, 0, 8, 107
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\VLinks\VLinks.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 99, 0, 2, 18, 119
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\VLinks\VLinks.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 90, 0, 4, 94
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\VLinks\VLinksData.ts", "TypeScript", 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 1, 35
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\VLinks\VLinksModal.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 91, 0, 0, 12, 103
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Sections\VLinks\VLinksModal.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 81, 0, 6, 87
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Alert\Alert.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 56, 0, 3, 3, 62
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Alert\Alert.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 32, 0, 3, 35
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\AuthContainer\AuthContainer.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 79, 0, 0, 3, 82
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\AuthContainer\AuthContainer.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 33, 0, 6, 39
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\BtnForn\BtnForm.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, 2, 19
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\BtnForn\BtnForm.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 19, 0, 3, 22
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\AccountSettings\CopyLinkBtn\CopyLinkBtn.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 2, 12
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\AccountSettings\CopyLinkBtn\CopyLinkBtn.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 23, 0, 3, 26
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\AddTitleButton\AddTitleButton.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 19, 0, 3, 22
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\ContactsButton\CommonButton\CommonButton.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 23, 0, 0, 2, 25
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\ContactsButton\CommonButton\CommonButton.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 30, 0, 3, 33
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\MenuCloseBtn\MenuCloseBtn.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, 2, 17
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\MenuCloseBtn\MenuCloseBtn.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 3, 16
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\SliderCrossButton\SliderCrossButton.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 2, 14
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\SliderCrossButton\SliderCrossButton.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 29, 0, 3, 32
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\SlidesBtn\AdvancedLogoBtn\LogoBtn.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 46, 0, 0, 4, 50
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\SlidesBtn\AdvancedLogoBtn\SlideLogo.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 140, 17, 12, 169
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\SlidesBtn\AdvancedLogoBtn\SubmitBtn.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\SlidesBtn\AdvancedLogoBtn\SubmitBtn.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 3, 13
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\SlidesBtn\SlideActionsBtn\FActionsBtn.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 54, 0, 3, 57
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\SlidesBtn\SlideActionsBtn\SlideActionsBtn.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 15
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\SlidesBtn\SlidesToggleButton\SlidesToggleButton.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 2, 33
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\SlidesBtn\SlidesToggleButton\SlidesToggleButton.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 64, 27, 4, 95
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\SlidesBtn\SlidesToggleButton\ToggleButtonPreview.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 24, 0, 3, 27
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\ToggleButton\ToggleButton.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 69, 0, 0, 14, 83
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\ToggleButton\ToggleButton.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 166, 4, 14, 184
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\UploadBtn\UploadBtn.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 22, 0, 0, 5, 27
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Buttons\UploadBtn\UploadBtn.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 17, 1, 3, 21
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Collapse\Collapse.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 67, 0, 6, 12, 85
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Collapse\Collapse.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 75, 0, 6, 81
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\DisplayColor\DisplayColor.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 23, 0, 33, 11, 67
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\DisplayColor\DisplayColor.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 43, 7, 8, 58
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\InputForm\InputForm.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 7
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\InputForm\InputForm.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 60, 0, 4, 64
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Inputs\ChildInput.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 22, 0, 0, 5, 27
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Inputs\ChildInput.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 19, 0, 3, 22
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Loader\Loader.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 27, 0, 20, 5, 52
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Loader\Loader.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 29, 0, 2, 31
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Menu\AccountMenu\AccountMenu.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 23, 0, 0, 2, 25
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Menu\AccountMenu\AccountMenu.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 4, 69
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Menu\GeneralMenu\GeneralMenu.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 94, 0, 16, 9, 119
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Menu\GeneralMenu\GeneralMenu.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 66, 6, 2, 74
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Menu\MenuItem\MenuItem.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 45, 0, 0, 9, 54
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Menu\MenuItem\MenuItem.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 61, 1, 8, 70
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Menu\MenuItems.ts", "TypeScript", 0, 64, 0, 0, 0, 0, 0, 0, 0, 5, 7, 76
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Menu\Menus.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 32, 0, 4, 36
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Sliders\HeroSlider2\HeroSlide2.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 2, 6
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Sliders\HeroSlider2\HeroSlider2.modules.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 192, 0, 8, 34, 234
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Sliders\HeroSlider2\HeroSlider2.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 2, 6
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\SwiperContainer\SwiperContainer.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 23, 2, 5, 30
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\ToastNotification\ToastNotification.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 16, 0, 0, 0, 16
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\ToastNotification\ToastNotification.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 3, 68
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\Types\BottomSheetDataTypes.ts", "TypeScript", 0, 21, 0, 0, 0, 0, 0, 0, 0, 127, 6, 154
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\UppyModal\UppyModal.jsx", "JavaScript", 62, 0, 0, 0, 0, 0, 0, 0, 0, 9, 5, 76
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\UserProfile\UserProfile.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 21, 3, 3, 27
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\globalCounter.js", "JavaScript", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Shared\meta\MetaTags.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 19, 0, 2, 21
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Test\Test2.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 107, 2, 5, 114
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Test\Test4\Test4.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 69, 0, 20, 16, 105
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Test\Test4\Test4.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 48, 0, 5, 53
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Test\Test4\Video.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 53, 3, 7, 63
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Test\Test5\Test5.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 6, 37
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Test\Test5\Test5.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 28, 0, 3, 31
+"c:\Users\aaron\Documents\vreel-webapp\src\components\Test\VideoJs\VideoJs.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 34, 7, 10, 51
+"c:\Users\aaron\Documents\vreel-webapp\src\conf\slide.ts", "TypeScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2
+"c:\Users\aaron\Documents\vreel-webapp\src\hooks\reducers\useEditSimpleLinkReducer.ts", "TypeScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 5, 15
+"c:\Users\aaron\Documents\vreel-webapp\src\hooks\useAudio.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 66, 9, 9, 84
+"c:\Users\aaron\Documents\vreel-webapp\src\hooks\useDebounce.ts", "TypeScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 5, 15
+"c:\Users\aaron\Documents\vreel-webapp\src\hooks\useDidMountEffect.ts", "TypeScript", 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 3, 12
+"c:\Users\aaron\Documents\vreel-webapp\src\hooks\useFonts.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 27, 2, 7, 36
+"c:\Users\aaron\Documents\vreel-webapp\src\hooks\useGroupData.ts", "TypeScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\aaron\Documents\vreel-webapp\src\hooks\useOuterClick.js", "JavaScript", 22, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 30
+"c:\Users\aaron\Documents\vreel-webapp\src\hooks\useQUCodeStyling.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 84, 2, 12, 98
+"c:\Users\aaron\Documents\vreel-webapp\src\hooks\useSlideRefer.ts", "TypeScript", 0, 78, 0, 0, 0, 0, 0, 0, 0, 0, 9, 87
+"c:\Users\aaron\Documents\vreel-webapp\src\hooks\useWindowDimensions.js", "JavaScript", 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 33
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\404.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 3, 14
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\[username].tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 43, 2, 8, 53
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\[username]\e\[employee].tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 42, 3, 9, 54
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\[username]\p\[id].tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 26, 1, 2, 29
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\_app.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 48, 2, 4, 54
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\_document.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 18, 5, 3, 26
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\analytics.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 48, 0, 12, 60
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\api\hello.ts", "TypeScript", 0, 281, 0, 0, 0, 0, 0, 0, 0, 1, 3, 285
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\api\vcard.ts", "TypeScript", 0, 219, 0, 0, 0, 0, 0, 0, 0, 115, 18, 352
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\collupse.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 18, 5, 2, 25
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\contacts.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 4, 15
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\dashjs.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 21, 3, 2, 26
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\drag.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 3, 9
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\edit\[item]\[slug].tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 3, 8
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\edit\[item]\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 3, 8
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\edit\account.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 2, 8
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\edit\enterprise.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 821, 8, 68, 897
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\edit\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 2, 6
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\html5.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 39, 7, 1, 47
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 649, 26, 10, 685
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\login.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 3, 9
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\register.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 3, 13
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\test.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 14
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\test.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 3, 54, 5, 62
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\test1.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 243, 55, 9, 307
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\test2.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 3, 15
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\videojs.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 12, 4, 2, 18
+"c:\Users\aaron\Documents\vreel-webapp\src\pages\view\doc\[url].tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 39, 12, 8, 59
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\createSlice\HeroBannerSlice.ts", "TypeScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 1, 16
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\createSlice\createCollapseSlice.ts", "TypeScript", 0, 32, 0, 0, 0, 0, 0, 0, 0, 1, 5, 38
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\createSlice\createHeightSlice.ts", "TypeScript", 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 8, 58
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\createSlice\createMenuSlice.ts", "TypeScript", 0, 51, 0, 0, 0, 0, 0, 0, 0, 1, 6, 58
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\createSlice\createMobileMediaSelector.ts", "TypeScript", 0, 128, 0, 0, 0, 0, 0, 0, 0, 0, 10, 138
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\createSlice\editorSlice.ts", "TypeScript", 0, 44, 0, 0, 0, 0, 0, 0, 0, 3, 3, 50
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\createSlice\presentation.ts", "TypeScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 4, 18
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\createSlice\previewSlice.ts", "TypeScript", 0, 30, 0, 0, 0, 0, 0, 0, 0, 0, 4, 34
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\createSlice\sectionsSlice.ts", "TypeScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 5, 20
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\createSlice\trackChangesSlice.ts", "TypeScript", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 3, 19
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\createSlice\userSlice.ts", "TypeScript", 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 3, 20
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\createSlice\vreelSlice.ts", "TypeScript", 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 5, 38
+"c:\Users\aaron\Documents\vreel-webapp\src\redux\store\store.ts", "TypeScript", 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 3, 36
+"c:\Users\aaron\Documents\vreel-webapp\src\services\api\fonts\fonts.ts", "TypeScript", 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\FormikContainer.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 3, 21
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\FormikControl.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 36, 0, 2, 38
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\Types\FormikTypes.ts", "TypeScript", 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 2, 47
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\ColorInput\ColorInput.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 38, 0, 0, 8, 46
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\ColorInput\ColorInput.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 28, 0, 4, 32
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\ContactsInput\ContactsInput.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 24, 0, 0, 2, 26
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\ContactsInput\ContactsInput.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 24, 0, 3, 27
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\ContactsInput\Search\Search.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 22, 0, 0, 1, 23
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\ContactsInput\Search\Search.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 16, 0, 3, 19
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\ElementInput\ElementInput.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 24, 0, 0, 5, 29
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\ElementInput\ElementInput.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 26, 0, 3, 29
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Images\Images.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 3, 21
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Input\Input.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 28, 0, 2, 2, 32
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Input\Input.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 96, 1, 12, 109
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Media\Media.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 169, 0, 0, 16, 185
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Media\Media.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 270, 13, 12, 295
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Media\MediaImage.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 178, 0, 2, 19, 199
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Media\MediaImage.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 171, 9, 11, 191
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Media\MediaSelectorGrallery\MediaSelectorGridItem.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 46, 0, 0, 5, 51
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Media\MediaSelectorGrallery\MediaSelectorGridItem.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 54, 1, 7, 62
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Media\MediaSelectorGridItem\MediaSelectorGallery.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 58, 0, 1, 5, 64
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Media\MediaSelectorGridItem\MediaSelectorGallery.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 110, 3, 16, 129
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\RichTextarea\RichTextarea.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 50, 0, 18, 9, 77
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\RichTextarea\RichTextarea.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 87, 1, 8, 96
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\SlideInput\SlideInput.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 1, 8
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\SlideInput\SlideInput.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 3, 16
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\SocialInput\SocialInput.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 6, 31
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\SocialInput\SocialInput.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 16, 0, 3, 19
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Switch\Switch.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 32, 0, 0, 2, 34
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Switch\Switch.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 49, 0, 4, 53
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\TextError\TextError.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 2, 7
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\TextError\TextError.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 4, 11
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Textarea\Textarea.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 1, 8
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\Textarea\Textarea.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 40, 1, 6, 47
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\ToggleShowHide\ToggleShowHide.module.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 70, 0, 0, 14, 84
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\ToggleShowHide\ToggleShowHide.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 71, 3, 5, 79
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\common\video\Video.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 3, 28
+"c:\Users\aaron\Documents\vreel-webapp\src\services\formik\index.ts", "TypeScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3
+"c:\Users\aaron\Documents\vreel-webapp\src\services\graphql\index.ts", "TypeScript", 0, 17, 0, 0, 0, 0, 0, 0, 0, 4, 4, 25
+"c:\Users\aaron\Documents\vreel-webapp\src\services\graphql\mutations.ts", "TypeScript", 0, 147, 0, 0, 0, 0, 0, 0, 0, 0, 19, 166
+"c:\Users\aaron\Documents\vreel-webapp\src\services\graphql\query.ts", "TypeScript", 0, 1145, 0, 0, 0, 0, 0, 0, 0, 0, 23, 1168
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\abstracts\_afterBeforeLine.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 28, 0, 0, 1, 29
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\abstracts\_functions.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\abstracts\_mixins.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 6, 65
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\abstracts\_placeholders.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 8, 0, 1, 1, 10
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\abstracts\_typography.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 16, 0, 3, 6, 25
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\abstracts\_variables.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 27, 0, 2, 4, 33
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\base\_base.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 41, 0, 4, 5, 50
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\base\_fonts.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 30, 0, 0, 1, 31
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\base\_reset.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 150, 0, 4, 12, 166
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\base\_test.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 3
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\components\_buttons.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 227, 0, 0, 35, 262
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\components\_components.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 7, 0, 1, 1, 9
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\components\_inputs.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\layout\_containers.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\main.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 2, 7
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\settings\__settings.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 1, 8
+"c:\Users\aaron\Documents\vreel-webapp\src\styles\sass\vendors\_swiper.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 164, 0, 12, 28, 204
+"c:\Users\aaron\Documents\vreel-webapp\src\types\index.ts", "TypeScript", 0, 38, 0, 0, 0, 0, 0, 0, 0, 0, 6, 44
+"c:\Users\aaron\Documents\vreel-webapp\src\types\mutations.ts", "TypeScript", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 1, 23
+"c:\Users\aaron\Documents\vreel-webapp\src\types\users.ts", "TypeScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 1, 14
+"c:\Users\aaron\Documents\vreel-webapp\src\utils\check.ts", "TypeScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 2, 25
+"c:\Users\aaron\Documents\vreel-webapp\src\utils\lib.js", "JavaScript", 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 23
+"c:\Users\aaron\Documents\vreel-webapp\test.js", "JavaScript", 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 25
+"c:\Users\aaron\Documents\vreel-webapp\tsconfig.json", "JSON with Comments", 0, 0, 35, 0, 0, 0, 0, 0, 0, 38, 0, 73
+"Total", "-", 619, 3440, 35, 34, 10707, 1024, 37, 7044, 16106, 2230, 2931, 44207

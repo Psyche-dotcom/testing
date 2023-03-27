@@ -1,0 +1,73 @@
+@import '@sass/settings/_settings';
+
+.filesMobileVersion{
+    background-color: $vreel_gray_dark;
+    padding-top: 12px;
+    display: block;
+    overflow: hidden;
+    @media only screen and (min-width: 1024px) {
+        display: none;
+    }
+    .previewMobile {
+        position: fixed;
+        @include displaySizing(100%, 100vh);
+        z-index: 50;
+        background-color: $primary;
+        top: 0;
+        left: 0;
+        transition: all .5s;
+
+        .icons {
+            @include displaySizing(100%, 100%);
+
+            .hideIcon {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                color: $vreel_white;
+                font-size: 30px;
+                z-index: 50;
+            }
+
+            .mobilePrevText {
+                color: $vreel_white;
+                height: 100%;
+                @include displayFlex(auto, flex, center, center)
+            }
+        }
+
+    }
+
+    &__content{
+        &__uploadMessage{
+            text-align: center;
+            color: $vreel_white;
+            font-size: $text-xs;
+            font-weight: $font-medium;
+            line-height: 18px;
+            max-width: 80%;
+            margin-inline: auto;
+            &__success{
+                @include displayFlex(100%,flex,center,center);
+                margin-top: 5px;
+                img{
+                    @include displaySizing(26px,26px);
+                    object-fit: fill;
+                }
+                p{
+                    @include textElipsis(1);
+                    margin-left: 3px;
+                }
+            }
+        }
+    }
+
+    .active {
+        transform: scale(1);
+    }
+
+    .deactive {
+        transform: scale(0);
+    }
+
+}

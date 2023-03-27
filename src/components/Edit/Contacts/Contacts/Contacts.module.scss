@@ -1,0 +1,70 @@
+@import '@sass/settings/_settings';
+
+.contacts{
+    max-width: 360px;
+    height: max-content;
+    background-color: $primary;
+
+    &__container{
+        padding: 10px;
+        color: $vreel_white;
+        @include displaySizing(100%,100%);
+
+        &__content{
+            @include displaySizing(100%, 100%);
+            &__header{
+                @include displaySizing(100%, 100%);
+                p{
+                    text-align: center;
+                    margin-bottom: 16px;
+                    font-weight: $font-medium;
+                    font-size: 18px;
+                }
+                &__toggleBtn{
+                    max-width: 150px;
+                    background-color: $secondary;
+                    cursor: pointer;
+                    font-size: $text-xs;
+                    @include componentsBorder(2px solid $vreel_white, 20px);
+                    margin-bottom: 5px;
+                    position: relative;
+                    margin: 0 auto;
+                    margin-bottom: 15px;
+
+                    button {
+                        @include displaySizing(50%, 100%);
+                        @include componentsBorder(none, 20px);
+                        background-color: $vreel_white;
+                        padding: 7px;
+                        font-weight: $font-semibold;
+                        color: $secondary;
+                    }
+                    span{
+                        position: absolute;
+                        color: $vreel_white;
+                        font-size: $text-xs;
+                        top: 30%;
+                        left: 5%;
+                        transition: all 0.2s ease-in-out;
+                    }
+                    &__contacts{
+                        transform:  translateX(0);
+                    }
+                    &__groups{
+                        transform: translateX(100%);
+                    }
+                    &__active{
+                        right: -10%;
+                        transform: translateX(50%);
+                    }
+                }
+            }
+
+            &__body{
+                &__search{
+                    margin-bottom: 1.4rem;
+                }
+            }
+        }
+    }
+}

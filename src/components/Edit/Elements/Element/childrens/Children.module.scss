@@ -1,0 +1,427 @@
+@import "@sass/settings/_settings";
+
+.children {
+  color: white;
+  padding: 1.5rem 0 0.5rem;
+
+  & > *:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  &__input {
+    padding: 0.3rem 1rem;
+  }
+
+  &__btnContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem 0.5rem;
+  }
+
+  // Input css
+  &__inputContainer {
+    @include displayFlex(100%, flex, space-between, center);
+    border-radius: 10px;
+    position: relative;
+    margin: 0.5rem 0;
+
+    label {
+      color: $vreel_white;
+      font-size: 7px;
+      position: absolute;
+      top: -3px;
+      left: 10px;
+      background-color: $vreel_white_gray;
+      padding: 0 8px;
+    }
+
+    input {
+      @include displaySizing(100%, 100%);
+      @include componentsBorder(1px solid $vreel_white, $rounded-md);
+      padding: 8px 16px;
+      background-color: transparent;
+      outline: none;
+      color: $vreel_white;
+    }
+    ::placeholder {
+      color: $vreel_white;
+    }
+  }
+
+  &__inputWrapper {
+    background-color: $vreel_white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px 8px;
+    font-size: 14px;
+
+    input,
+    textarea {
+      border: none;
+      background: transparent;
+      width: 100%;
+      font-family: 'Poppins';
+
+      &:focus {
+        outline: none;
+      }
+
+      &::placeholder {
+        font-size: 14px;
+        font-family: 'Poppins';
+      }
+    }
+  }
+
+
+  // Start of Video Gallery Css
+
+  &__videoContainer {
+    background-color: $vreel_blue_dark;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+
+    p {
+      color: $vreel_white;
+      font-size: $text-lg;
+      padding: 0.5rem 0;
+    }
+    &__content {
+      @include displayFlex(100%, flex, space-between, center);
+      padding: 0.5rem;
+      background-color: $vreel_white_gray;
+      border-radius: $rounded-lg;
+      margin: 10px 0;
+      &__selection {
+        @include displayFlex(100%, flex, space-between, center);
+        flex-direction: column;
+        p {
+          font-size: $text-xxs;
+          font-weight: $font-bold;
+          padding-top: 0;
+        }
+        &__inputContainer {
+          @include displayFlex(100%, flex, space-between, center);
+          border-radius: 10px;
+          position: relative;
+          margin: 0.5rem 0;
+
+          label {
+            color: $vreel_white;
+            font-size: 7px;
+            position: absolute;
+            top: -3px;
+            left: 10px;
+            background-color: $vreel_white_gray;
+            padding: 0 8px;
+          }
+
+          input {
+            @include displaySizing(100%, 100%);
+            @include componentsBorder(1px solid $vreel_white, $rounded-md);
+            padding: 8px 16px;
+            background-color: transparent;
+            outline: none;
+            color: $vreel_white;
+          }
+          ::placeholder {
+            color: $vreel_white;
+          }
+        }
+        &__fileBtnContainer {
+          @include displayFlex(100%, flex, center, center);
+
+          &__iconButtons {
+            margin-left: 16px;
+            color: $secondary;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+
+            @media only screen and (max-width: 500px) {
+              margin-left: 7px;
+            }
+
+            &__icon {
+              display: block;
+              width: 24px;
+              height: 24px;
+
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+
+            .viewIcon {
+              font-size: 24px;
+              margin-top: 2px;
+
+              @media only screen and (min-width: 1024px) {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+    &__videoInput {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 10px;
+      overflow: hidden;
+      &__options {
+        background: $vreel_white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        margin-bottom: 0.5rem;
+
+        &__button {
+          padding: 0.2rem 0.6rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-radius: 10px;
+          color: $primary;
+          text-transform: capitalize;
+
+          span {
+            display: block;
+            margin-top: 3px;
+            font-size: $text-xxs;
+          }
+
+          &__active {
+            background-color: $secondary;
+          }
+        }
+        &__select {
+          box-sizing: content-box;
+          border-radius: 10px;
+          padding: 6.5px;
+          font-size: 14px;
+          border: none;
+          outline: none;
+          background: $vreel_white;
+          font-family: "Poppins";
+          appearance: none;
+          background-image: url("/assets/icons/down-arrow.svg");
+          background-size: 24px;
+          background-repeat: no-repeat;
+          background-position-x: 92%;
+          background-position-y: 10px;
+          cursor: pointer;
+          text-indent: 10px;
+          width: 90%;
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+
+  //  End of video gallery Styles
+
+  // TEXT AREA
+  &__textArea {
+    padding: 0 0.5rem;
+  }
+  .optionWrapper {
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .display__color {
+    border: 1px solid $vreel_white;
+    padding: 6px 6px 8px;
+    border-radius: 4px;
+    position: relative;
+    margin: 2rem 1rem 1rem;
+
+    .title {
+      position: absolute;
+      top: 0%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      background-color: #424242;
+      padding: 0 0.5rem;
+      color: grey;
+      width: max-content;
+    }
+
+    .inputWrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.8rem;
+      width: 100%;
+      gap: 0.4rem;
+
+      & > * {
+        flex: 1;
+      }
+    }
+  }
+
+  // Super Links Design CSS
+  &__superLink {
+    background-color: $vreel_blue_dark;
+    margin-bottom: 2rem;
+  }
+  //End of Super Links Design CSS
+
+  .option {
+    display: block;
+    background-color: $vreel_white;
+    padding: 6px 1rem;
+    color: $vreel_light_gray;
+    border-radius: 8px;
+    font-weight: $font-regular;
+
+    &_bold {
+      font-weight: $font-bold;
+    }
+
+    &_italic {
+      font-style: italic;
+    }
+
+    &_underline {
+      text-decoration: underline;
+    }
+  }
+
+  .clearArea {
+    display: block;
+    background-color: $vreel_dark_red;
+    color: $vreel_white;
+    font-size: 10px;
+    font-weight: $font-medium;
+    text-align: center;
+    padding: 0.6rem 1.5rem;
+    border-radius: 2rem;
+    margin-left: auto;
+  }
+
+  // EVENT
+  .toggleButton {
+    background: $vreel_green;
+
+    border: 2px solid $vreel_white;
+    border-radius: $rounded-full;
+    display: flex;
+    justify-content: space-between;
+
+    width: 160px;
+    margin: 0 auto;
+
+    .button {
+      display: block;
+      width: 80px;
+      height: 100%;
+      padding: 0.2rem 0.8rem;
+      border-radius: $rounded-full;
+      color: $primary;
+      background: transparent;
+      font-size: 14px;
+
+      &__active {
+        background: $vreel_white;
+      }
+    }
+  }
+
+  .toggleTitle {
+    display: block;
+    font-size: 14px;
+    font-weight: $font-semibold;
+    text-align: center;
+    color: $vreel_white;
+    margin: 1rem 0;
+  }
+
+  // SOCIALS , MUSIC LINKS
+  .iconWrapper {
+    background-color: $vreel_white;
+    padding: 0.4rem 0.8rem;
+    display: flex;
+    align-items: center;
+    border-radius: $rounded-full;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    input {
+      border: none;
+      padding-left: 1.2rem;
+      flex: 1;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    img {
+      width: 1.75rem;
+      height: 1.75rem;
+      object-fit: cover;
+    }
+  }
+
+  //CONTACT
+
+  .contact {
+    .boxWrapper {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.8rem;
+
+      .inputWrapper {
+        flex: 1;
+      }
+
+      .imageWrapper {
+        background-color: $secondary;
+        padding: 0.7rem;
+        border-radius: 1rem;
+
+        .inputFile {
+          position: relative;
+          overflow: hidden;
+
+          input {
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            opacity: 0;
+          }
+
+          .addLogoContainer {
+            color: $vreel_white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+
+            span {
+              font-size: 10px;
+            }
+
+            img {
+              width: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

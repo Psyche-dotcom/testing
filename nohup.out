@@ -1,0 +1,82 @@
+yarn run v1.22.18
+$ next start
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from /home/dev/vreel-webapp/.env.local
+{ base: 'https://dev1.vreel.page/graphql' }
+Error: Cannot find module '/home/dev/vreel-webapp/.next/server/pages/_error.js'
+Require stack:
+- /home/dev/vreel-webapp/node_modules/next/dist/server/require.js
+- /home/dev/vreel-webapp/node_modules/next/dist/server/load-components.js
+- /home/dev/vreel-webapp/node_modules/next/dist/server/next-server.js
+- /home/dev/vreel-webapp/node_modules/next/dist/server/next.js
+- /home/dev/vreel-webapp/node_modules/next/dist/server/lib/start-server.js
+- /home/dev/vreel-webapp/node_modules/next/dist/cli/next-start.js
+- /home/dev/vreel-webapp/node_modules/next/dist/bin/next
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.mod._resolveFilename (/home/dev/vreel-webapp/node_modules/next/dist/build/webpack/require-hook.js:171:28)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.requirePage (/home/dev/vreel-webapp/node_modules/next/dist/server/require.js:48:12)
+    at Object.loadComponents (/home/dev/vreel-webapp/node_modules/next/dist/server/load-components.js:58:23)
+    at Server.findPageComponents (/home/dev/vreel-webapp/node_modules/next/dist/server/next-server.js:1243:63)
+    at Server.renderErrorToResponse (/home/dev/vreel-webapp/node_modules/next/dist/server/next-server.js:1712:37)
+    at async Server.pipe (/home/dev/vreel-webapp/node_modules/next/dist/server/next-server.js:1158:25) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/dev/vreel-webapp/node_modules/next/dist/server/require.js',
+    '/home/dev/vreel-webapp/node_modules/next/dist/server/load-components.js',
+    '/home/dev/vreel-webapp/node_modules/next/dist/server/next-server.js',
+    '/home/dev/vreel-webapp/node_modules/next/dist/server/next.js',
+    '/home/dev/vreel-webapp/node_modules/next/dist/server/lib/start-server.js',
+    '/home/dev/vreel-webapp/node_modules/next/dist/cli/next-start.js',
+    '/home/dev/vreel-webapp/node_modules/next/dist/bin/next'
+  ]
+}
+Killed
+error Command failed with exit code 137.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.18
+$ next start
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from /home/dev/vreel-webapp/.env.local
+{ base: 'https://dev1.vreel.page/graphql' }
+Killed
+error Command failed with exit code 137.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.18
+$ next start
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from /home/dev/vreel-webapp/.env.local
+{ base: 'https://dev1.vreel.page/graphql' }
+yarn run v1.22.18
+$ next start
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at doListen (node:net:1516:7)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Killed
+error Command failed with exit code 137.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.18
+$ next start
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from /home/dev/vreel-webapp/.env.local
+{ base: 'https://dev1.vreel.page/graphql' }
+yarn run v1.22.19
+$ next start
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from /home/dev/vreel-webapp/.env.local
+{ base: 'https://dev1.vreel.page/graphql' }
+Killed
+error Command failed with exit code 137.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

@@ -1,0 +1,240 @@
+@import '@sass/settings/_settings';
+
+.displayOptions {
+  padding: 0.6rem 0 1rem;
+  display: flex;
+
+  //DISPLAY LEFT
+  &__left {
+    width: 390px;
+    @media (max-width: 1020px) {
+      width: 100%;
+    }
+
+    @media (min-width: 500px) {
+      background-color: $vreel_blue_dark;
+      border-radius: 20px;
+      padding: 0px;
+    }
+
+    // TITLE
+    .title {
+      color: $secondary;
+      font-size: $text-lg;
+      position: relative;
+      text-align: center;
+      margin: 1rem 0 1.5rem;
+      &:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 60px;
+        border: 1px solid #ff7a00;
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        width: 60px;
+        border: 1px solid #ff7a00;
+      }
+    }
+
+    // CONTAINER
+    .displayOption_container {
+      margin: 0;
+    }
+
+    //DISPLAY OPTION
+    .displayOptionWrapper {
+      // background: $vreel_light_gray;
+      //background-color: rgba(45, 52, 80, 0.81);
+      // border: 1px solid #8d8d8d;
+      border-radius: 15px;
+      overflow: hidden;
+
+      &:not(:last-child) {
+        margin-bottom: 1.2rem;
+      }
+    }
+
+    .displayOption {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0.7rem;
+
+      @media (min-width: 1020px) {
+        display: none;
+      }
+
+      &__title {
+        font-size: $text-base;
+        color: $vreel_white;
+      }
+
+      .collapse_icon {
+        font-size: 1.2rem;
+        color: $vreel_white;
+      }
+    }
+
+    //DISPLAY DATA
+    .displayDataWrapper {
+      padding: 10px;
+
+      @media (min-width: 1020px) {
+        padding: 3rem;
+
+        &:last-child {
+          padding: 1rem 3rem;
+        }
+      }
+
+      & > * {
+        margin-bottom: 10px;
+      }
+
+      h5{
+        margin-top: 20px;
+        margin-bottom: 5px;
+      }
+    }
+
+    .displayAdvanceDataWrapper{
+      padding: 10px;
+      @include displayFlex(100%, flex, space-between, center);
+      &__left{
+        width: 48%;
+
+        p{
+          display: block;
+          color: $vreel_white;
+
+          text-align: center;
+        }
+      }
+    }
+
+    .displayDataAudioWrapper{
+      width: 48%;
+      select{
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px 8px;
+        font-size: 14px;
+        width: 100%;
+        margin: 10px 0;
+        @supports (-webkit-overflow-scrolling: touch) {
+          font-size: 16px;
+        }
+      }
+    }
+    .displayBackgroundAudio {
+
+
+
+      span {
+        display: block;
+        color: $vreel_white;
+        font-weight: $font-semibold;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      p{
+        display: block;
+        color: $vreel_white;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      .buttonWrapper {
+        margin: 1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+
+        button {
+          background: $secondary;
+          color: $vreel-white;
+          padding: 0.4rem 1.2rem;
+          border-radius: $rounded-full;
+          font-weight: $font-medium;
+        }
+      }
+    }
+
+
+
+    .displayDataImageWrapper {
+      background-color: $secondary;
+      border-radius: 13px;
+      width: 100%;
+      height: max-content;
+      margin: 0 0 1rem 0rem;
+      display: flex;
+      flex-direction: column;
+      padding: 6px;
+      img{ border-radius: 13px;}
+    }
+  }
+
+  .display__color {
+    border: 1px solid $vreel_white;
+    padding: 6px 6px 8px;
+    border-radius: 4px;
+    position: relative;
+    margin: 2rem 1rem 1rem;
+
+    .fonttitle {
+      position: absolute;
+      top: 0%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      background: $vreel_blue_dark;
+      padding: 0 0.5rem;
+      color: grey;
+      width: max-content;
+    }
+
+    .inputWrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.8rem;
+      width: 100%;
+      gap: 0.4rem;
+
+      & > * {
+        flex: 1;
+      }
+    }
+  }
+
+  //DISPLAY RIGHT
+  &__right {
+    flex: 1;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $vreel_light_gray;
+    margin-left: 2rem;
+
+    @media (min-width: 1020px) {
+      display: flex;
+    }
+
+    h1 {
+      color: $vreel_white;
+      font-size: $text-2xl;
+    }
+  }
+}

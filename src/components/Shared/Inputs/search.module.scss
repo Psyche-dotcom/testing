@@ -1,0 +1,31 @@
+@import '@sass/settings/_settings';
+.searchContainer{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  &__label{
+    color: #ffffff;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  &__groupInput{
+    @include displayFlex(100%, flex, space-between, center);
+    border-radius: 20px;
+    border: solid 2px #000;
+    background-color: #ffffff;
+    padding-left: 10px;
+    &__input{ border: 0 !important; background: transparent !important; width: 100%;font-size: 16px;padding: 10px;
+    &:focus-visible,
+    &:focus{
+      border: 0 !important; background: transparent !important;
+      outline: transparent;
+    }
+    }
+    &__icon{}
+  }
+
+}

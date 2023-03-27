@@ -1,0 +1,64 @@
+@mixin displaySizing($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin displaySizingMinH($width, $height) {
+  width: $width;
+  min-height: $height;
+}
+
+@mixin displayFlex($width, $flex, $justify, $items) {
+  width: $width;
+  display: $flex;
+  justify-content: $justify;
+  align-items: $items;
+}
+
+@mixin displayFlex2($width, $flex, $justify, $items, $direction) {
+  width: $width;
+  display: $flex;
+  justify-content: $justify;
+  align-items: $items;
+  flex-direction: $direction;
+}
+@mixin componentsBorder($border, $radius) {
+  border: $border;
+  border-radius: $radius;
+}
+
+@mixin textElipsis($line) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}
+@mixin groupsTitle() {
+  color: $secondary;
+  font-weight: $font-semibold;
+  padding: 17px 0;
+}
+@mixin afterBefore($afterWidth, $beforeWidth) {
+  position: relative;
+  text-align: center;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: $beforeWidth;
+    border: 1px solid #ff7a00;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: $afterWidth;
+    border: 1px solid #ff7a00;
+  }
+}

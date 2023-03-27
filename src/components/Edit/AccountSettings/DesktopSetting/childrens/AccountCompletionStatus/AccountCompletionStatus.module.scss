@@ -1,0 +1,123 @@
+@import '@sass/settings/_settings';
+
+.status {
+  width: 85%;
+  margin: 2rem auto 1rem;
+  border-top: 2px solid $vreel_gray;
+  position: relative;
+
+  //   PROGRESS BAR
+  &__progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    margin-top: -2px;
+    background-color: $secondary;
+  }
+
+  //   POINT
+  &__point {
+    width: 32px;
+    height: 32px;
+    background-color: $vreel_light_gray;
+    border: 2px solid $vreel_gray;
+    border-radius: $rounded-full;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+    &__active {
+      border: 2px solid $secondary;
+    }
+
+    &__next {
+      border: 2px solid $secondary;
+    }
+
+    //POINT BALL
+    &__ball {
+      display: block;
+      width: 10px;
+      height: 10px;
+      border-radius: $rounded-full;
+      background: $vreel_gray;
+
+      &__active {
+        background: $secondary;
+      }
+
+      &__last {
+        width: 100%;
+        height: 100%;
+        border-radius: $rounded-full;
+        background-color: $secondary;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $vreel_white;
+        font-size: 10px;
+      }
+    }
+
+    // COMPLETE POINT STYLE
+    &__complete {
+      width: 100%;
+      height: 100%;
+      border-radius: $rounded-full;
+      background-color: $secondary;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    // INDIVIDUAL POINT POSITIONS
+    &__1 {
+      left: 0;
+    }
+    &__2 {
+      left: 25%;
+    }
+    &__3 {
+      left: 50%;
+    }
+    &__4 {
+      left: 75%;
+    }
+    &__5 {
+      left: 100%;
+    }
+
+    // TEXT STYLES
+    &__title,
+    &__titleTop {
+      position: absolute;
+      color: $vreel_gray;
+      text-align: center;
+      text-decoration: underline;
+      line-height: 1.2rem;
+    }
+    &__titleTop {
+      top: -100%;
+    }
+    &__title {
+      top: 120%;
+    }
+
+    &__titleComplete {
+      text-decoration: none;
+      color: $secondary;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import '@sass/settings/_settings';
+
+.uploadBtn {
+    @include displayFlex(max-content, flex, center, flex-start);
+    margin: 0 auto;
+
+    button {
+        background-color: $secondary;
+        color: $vreel_white;
+        font-weight: 700;
+        padding: 12px 20px;
+        border-radius: 20px;
+        margin: 10px 0;
+        border: none;
+
+        @include displayFlex(auto, flex, center, center);
+
+        span {
+            margin-right: 4px;
+            letter-spacing: 1.5px;
+        }
+
+        .icon {
+            font-size: 20px;
+        }
+    }
+}

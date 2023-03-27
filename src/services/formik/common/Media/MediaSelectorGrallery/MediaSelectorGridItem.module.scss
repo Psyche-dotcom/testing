@@ -1,0 +1,50 @@
+@import '@sass/settings/_settings';
+
+.viewImageContainer {
+  background-color: $vreel_gray_dark;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 200px;
+  @media only screen and (min-width: 768px) {
+    height: 300px;
+  }
+  & > div {
+    @include displaySizing(100%, calc(100% - 15%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    overflow: hidden;
+
+    img {
+      @include displaySizing(100%, 200px);
+      object-fit: contain;
+      border-radius: 20px;
+    }
+  }
+
+  .playIcons {
+    @include displayFlex(auto, flex, flex-start, center);
+    height: 30px;
+    padding-left: 10px;
+    @media only screen and (min-width: 768px) {
+      height: 50px;
+      @include displayFlex(auto, flex, center, center);
+    }
+
+    button {
+      img {
+        height: 30px;
+      }
+    }
+    span {
+      font-size: 10px;
+      margin-left: 2px;
+      margin-top: -2px;
+      color: $vreel_white;
+      @media only screen and (min-width: 768px) {
+        font-size: $text-base;
+      }
+    }
+  }
+}

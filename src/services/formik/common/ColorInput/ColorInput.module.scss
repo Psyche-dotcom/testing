@@ -1,0 +1,45 @@
+@import '@sass/settings/_settings';
+
+.inputContainer {
+  width: 100%;
+  background-color: #142129;
+  padding: 0.5rem;
+  border-radius: 12px;
+  display: flex;
+
+  .colorPicker {
+    position: relative;
+
+    input {
+      opacity: 0;
+      position: relative;
+      z-index: 2;
+    }
+
+    .null__input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      background: #B3BAC3;
+      height: 1.8rem;
+      width: 1.8rem;
+      border-radius: 6px;
+    }
+  }
+
+  .colorCode {
+    color: $vreel_white;
+    font-size: 12px;
+
+    h4 {
+      text-transform: capitalize;
+    }
+
+    span {
+      display: block;
+      font-size: 10px;
+      margin-top: 0.4rem;
+    }
+  }
+}
